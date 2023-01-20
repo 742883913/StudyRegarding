@@ -4,4 +4,4 @@
 
 ### 数学
 
-- [ ] [高等数学](AdvancedMathematics.md)
+[高等数学](AdvancedMathematics.md)
