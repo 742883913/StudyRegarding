@@ -4,7 +4,7 @@
 
 ## 作者：王姆斯（名言：华科有手就行）
 
-### 数学
+### 高等数学
 
 [第三章：一元函数微分学应用](Chapter\AdvancedMathematics.md)
 
