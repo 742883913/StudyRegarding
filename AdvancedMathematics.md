@@ -82,7 +82,9 @@
   $$ds=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt=\sqrt{(\phi'(t))^2+(\Phi'(t))^2}dt$$
 - 曲率和曲率半径
   1.  曲率：
+  
   $$k=\frac{y''}{(1+(y')^2)^\frac{3}{2}}$$
+  
   2. 曲率半径： 
   
   $$R=\frac{1}{k}$$
