@@ -9,32 +9,36 @@
 
 ## 中值定理
 - 罗尔定理：
+  
   $$\begin{cases}
    f(x)\in [a,b] \\
    f(x)在(a,b)内可导\\
    f(a)=f(b)
   \end{cases}$$
 
-一定满足存在$\xi \in (a,b),使f'(\xi )=0$
+一定满足存在 $\xi \in (a,b)$,使 $f'(\xi )=0$
 - 拉格朗日中值定理：
+  
   $$\begin{cases}
    f(x)\in [a,b] \\
    f(x)在(a,b)内可导
   \end{cases}$$
 
-一定满足存在$\xi \in (a,b),使f'(\xi )=\frac{f(b)-f(a)}{b-a}$
+一定满足存在 $\xi \in (a,b)$,使 $f'(\xi )=\frac{f(b)-f(a)}{b-a}$
 - 柯西中值定理
+  
   $$\begin{cases}
    f(x),g(x)\in [a,b] \\
    f(x),g(x)在(a,b)内可导\\
    g(x)\neq 0
   \end{cases}$$
 
-一定存在$\xi \in (a,b),使\frac{f'(\xi )}{g'(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}$
+一定存在 $\xi \in (a,b)$,使 $\frac{f'(\xi )}{g'(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}$
 
 ## 洛必达法则
+
   $$\begin{cases}
-   f(x),g(x)在x=a的去心邻域内可导且g'(x)\neq 0\\
+   f(x),g(x)在\ x=a\ 的去心邻域内可导且g'(x)\neq 0\\
    \lim_{x \to a}f(x)=0,\lim_{x \to a}g(x)=0\\
    \lim_{x \to a}\frac{f'(x)}{g'(x)}=A
   \end{cases}$$
@@ -43,7 +47,7 @@
 
 $$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
 
-**注意**：洛必达后无极限，不代表原函数$\lim_{x \to a}\frac{f(x)}{g(x)}$ 无极限。
+**注意**：洛必达后无极限，不代表原函数 $\lim_{x \to a}\frac{f(x)}{g(x)}$ 无极限。
 
 ## 泰勒公式
 - 定义自己看
@@ -89,9 +93,9 @@ $$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
 
 - 斜渐近线：
    
-   $$\lim_{x \to \infty}\frac{f(x)}{x}=a,\lim_{x \to \infty}[f(x)-ax]=b$$ 
+  $$\lim_{x \to \infty}\frac{f(x)}{x}=a,\lim_{x \to \infty}[f(x)-ax]=b$$ 
    
-   ,则y=ax+b为斜渐近线
+  ,则 $y=ax+b$ 为斜渐近线
 
 **注意**：  
 （1）铅直渐近线一定存在间断点  
@@ -113,10 +117,10 @@ $$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
   $$ds=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt=\sqrt{(\phi'(t))^2+(\Phi'(t))^2}dt$$
 
 - 曲率和曲率半径
-   -  曲率：
+  - 曲率：
   
   $$k=\frac{y''}{(1+(y')^2)^\frac{3}{2}}$$
   
-   - 曲率半径： 
+  - 曲率半径： 
   
   $$R=\frac{1}{k}$$
