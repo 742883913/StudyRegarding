@@ -6,6 +6,8 @@
 
 ### 高等数学
 
-[第三章：一元函数微分学应用](Chapter/AdvancedMathematics.md)
+[第一章：连续与极限](Chapter/Chapter1.md)
+
+[第三章：一元函数微分学应用](Chapter/Chapter1.md)
 
 [高等数学做题技巧](MathSkills.md)
