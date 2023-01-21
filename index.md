@@ -7,3 +7,4 @@
 ### 数学
 
 [高等数学](AdvancedMathematics.md)
+[高等数学做题技巧](MathSkills.md)
