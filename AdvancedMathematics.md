@@ -44,22 +44,24 @@
   \end{cases}$$
    
 ### §2 渐近线判断
-1. 水平渐近线： 
+- 水平渐近线： 
   
   $$\lim_{x \to \infty}f(x)=A$$
  
  ,y=A为水平渐近线
 
-2.  铅直渐近线：  
+- 铅直渐近线：  
  
- $$f(a-0)=\infty 或 f(a+0)=\infty 或 \lim_{x \to a}f(x)=\infty$$
+ $$f(a-0)=\infty or f(a+0)=\infty or \lim_{x \to a}f(x)=\infty$$
+   
    ，x=a为铅直渐近线
 
-3. 斜渐近线：
+- 斜渐近线：
    
    $$\lim_{x \to \infty}\frac{f(x)}{x}=a,\lim_{x \to \infty}[f(x)-ax]=b$$ 
    
    ,则y=ax+b为斜渐近线
+
 **注意**：  
 （1）铅直渐近线一定存在间断点  
 （2）水平渐近线与斜渐近线在同一区间上互斥  
@@ -71,6 +73,7 @@
   $$ds=\sqrt{(dx)^2+(dy)^2}=\sqrt{1+(\frac{dy}{dx})^2}=\sqrt{1+(f'(x))^2}dx$$
   
   2. 参数方程下：
+  
   $$\begin{cases}
     x=\phi(t)\\
     y=\Phi(t)
