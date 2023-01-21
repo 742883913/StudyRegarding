@@ -10,7 +10,54 @@
   </script>
 </head>
 
-# 第三章（续）：极值点、凹凸性和渐近线判断与弧微分
+# 第三章：一元函数微分学应用
+
+[中值定理](#中值定理)
+
+[洛必达法则](#洛必达法则)
+
+[极值点、凹凸性及渐近线判断与弧微分](#1-极值点判断)
+## 中值定理
+- 罗尔定理：
+  $$\begin{cases}
+   f(x)\in [a,b] \\
+   f(x)在(a,b)内可导\\
+   f(a)=f(b)
+  \end{cases}$$
+
+一定满足存在$\xi \in (a,b),使f'(\xi )=0$
+- 拉格朗日中值定理：
+  $$\begin{cases}
+   f(x)\in [a,b] \\
+   f(x)在(a,b)内可导
+  \end{cases}$$
+
+一定满足存在$\xi \in (a,b),使f'(\xi )=\frac{f(b)-f(a)}{b-a}$
+- 柯西中值定理
+  $$\begin{cases}
+   f(x),g(x)\in [a,b] \\
+   f(x),g(x)在(a,b)内可导\\
+   g(x)\neq 0
+  \end{cases}$$
+
+一定存在$\xi \in (a,b),使\frac{f'(\xi )}{g'(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}$
+
+## 洛必达法则
+  $$\begin{cases}
+   f(x),g(x)在x=a的去心邻域内可导且g'(x)\neq 0\\
+   \lim_{x \to a}f(x)=0,\lim_{x \to a}g(x)=0\\
+   \lim_{x \to a}\frac{f'(x)}{g'(x)}=A
+  \end{cases}$$
+
+则
+
+$$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
+
+**注意**：洛必达后无极限，不代表原函数$\lim_{x \to a}\frac{f(x)}{g(x)}$ 无极限。
+
+## 泰勒公式
+- 定义自己看
+- 常见等价公式自己看（狗头）（敲起来有点麻烦）
 
 ## §1 极值点判断
 

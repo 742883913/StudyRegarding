@@ -6,6 +6,6 @@
 
 ### 数学
 
-[第三章：一元函数微分学应用](AdvancedMathematics.md)
+[第三章：一元函数微分学应用](Chapter\AdvancedMathematics.md)
 
 [高等数学做题技巧](MathSkills.md)
