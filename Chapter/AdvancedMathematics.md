@@ -122,6 +122,7 @@ $$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
   \end{cases}$$  
   
   $$ds=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt=\sqrt{(\phi'(t))^2+(\Phi'(t))^2}dt$$
+  
 - 曲率和曲率半径
    -  曲率：
   
