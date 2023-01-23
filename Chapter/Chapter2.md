@@ -19,7 +19,7 @@ $$f'(a)=\lim_{x \to a}\frac{f(x)-f(a)}{x-a}=\lim_{\Delta x \to 0}\frac{\Delta y}
 
 **注意：** 可导一定连续而连续不一定可导。所以一些题目我们就要考虑可导和连续的性质如：
 
-1. 连续：$\lim_{x \ to a}f(x)=f(a)$
+1. 连续：$\lim_{x \to a}f(x)=f(a)$
 
 2. 可导：$f(a-0)=f(a+0)$
 
