@@ -53,7 +53,7 @@ $$\begin{cases}
     \int \frac{1}{\sqrt{x^2+a^2}}dx=ln(x+\sqrt{x^2+a^2})+c\\
     \int \frac{1}{\sqrt{x^2-a^2}}dx=ln|x+\sqrt{x^2-a^2}|+c\\
     \int \frac{1}{x^2-a^2}dx=\frac{1}{2a}ln|\frac{x-1}{x+a}|+c\\
-    \int \sqrt{a^2-x^2}dx=\frac{a^2}{x}arcsin\frac{x}{a}+\frac x 2 \sqrt{a^2-x^2}+c
+    \int \sqrt{a^2-x^2}dx=\frac{a^2}{2}arcsin\frac{x}{a}+\frac x 2 \sqrt{a^2-x^2}+c
 \end{cases}$$
 
 **所有公式皆可用第二类换元积分法证明**
