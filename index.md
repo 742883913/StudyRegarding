@@ -12,4 +12,6 @@
 
 [第三章：一元函数微分学应用](Chapter/AdvancedMathematics.md)
 
+[第四章：不定积分](Chapter/Chapter4.md)
+
 [高等数学做题技巧](MathSkills.md)
