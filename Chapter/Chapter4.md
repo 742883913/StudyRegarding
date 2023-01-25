@@ -57,3 +57,54 @@ $$\begin{cases}
 \end{cases}$$
 
 **所有公式皆可用第二类换元积分法证明**
+
+## §2 换元积分法
+
+- **第一类换元积分法：**
+
+$$\int f[\phi(x)]d\phi'(x)=\int f(t)dt=F(t)+c=F[\phi(x)]+c$$
+
+**适用类型** :**无理数$\rightarrow$有理数**
+
+例题：求$\int \sqrt{e^x-1}dx$
+
+- **第二类换元积分法**
+
+$$\int f(x)dx=\int f[\phi(t)]d\phi(t)=\int g(t)dt=G(t)+c=G[\phi^{-1}(x)]+c$$
+
+**适用类型**：平方和差(可以将上面给出的公式全部证明)
+
+$\sqrt{a^2-x^2}\rightarrow 设x=asint$
+
+$\sqrt{x^2+a^2}\rightarrow 设x=atant$
+
+$\sqrt{x^2-a^2}\rightarrow 设x=asect$
+
+## §2 分部积分法
+
+- 公式：
+
+$uv=\int u dv+\int v du \rightarrow \int u dv=uv-\int v du$
+
+**适用类型**
+1. $\int 幂函数*指数dx$
+2. $\int 幂函数*对数dx$
+3. $\int 幂函数*三角dx$
+4. $\int 幂函数*反三角dx$
+5. 特殊：设原函数为$t$型,会发现积着又回到原函数
+
+$$\begin{cases}
+  \int e^{ax}cosbxdx\\
+  \int e^{ax}sinbxdx
+\end{cases}$$
+
+例题：求$\int e^{-x}cosxdx$
+
+6. 特殊($n$为奇数时)
+
+$$\begin{cases}
+  \int sec^nxdx\\
+  \int csc^nxdx
+\end{cases}$$
+
+例题：1.$\int sec^4xdx$ 2. $\int sec^3xdx$
