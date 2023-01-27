@@ -104,21 +104,21 @@ $uv=\int u dv+\int v du \rightarrow \int u dv=uv-\int v du$
 4. $\int 幂函数*反三角dx$
 5. 特殊：设原函数为$t$型,会发现积着又回到原函数
 
-$$\begin{cases}
+  $$\begin{cases}
   \int e^{ax}cosbxdx\\
   \int e^{ax}sinbxdx
-\end{cases}$$
+  \end{cases}$$
 
-例题：求$\int e^{-x}cosxdx$
+  例题：求$\int e^{-x}cosxdx$
 
 6. 特殊($n$为奇数时)
 
-$$\begin{cases}
-  \int sec^nxdx\\
-  \int csc^nxdx
-\end{cases}$$
+  $$\begin{cases}
+    \int sec^nxdx\\
+    \int csc^nxdx
+  \end{cases}$$
 
-例题：1.$\int sec^4xdx$ 2. $\int sec^3xdx$
+  例题：1.$\int sec^4xdx$ 2. $\int sec^3xdx$
 
 ## §5 特殊函数的不定积分
 ### 最重要的是保持灵活并不是所有都是这么做！
@@ -134,7 +134,7 @@ $$\frac{2x+1}{x(x^2+2x+2)}=\frac A x+\frac{Bx+c}{x^2+2x+2}$$
 
 $$\frac{2x+2}{x^3(2x+1)}=\frac{A}{x}+\frac B {x^2}+\frac C {x^3}+\frac D {2x+1}$$
 
-- 三角函数中没有办法的办法（万能公式）
+- **三角函数中没有办法的办法（万能公式）**
   
   设
   

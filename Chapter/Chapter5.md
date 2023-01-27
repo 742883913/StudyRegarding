@@ -28,12 +28,12 @@
 
 - 几何性质
 
-$$\begin{cases}
-    f(x)\geq 0,\int^b_af(x)dx=s\\
-    f(x)\leq 0,\int^b_af(x)dx=-s
-\end{cases}$$
+  $$\begin{cases}
+      f(x)\geq 0,\int^b_af(x)dx=s\\
+      f(x)\leq 0,\int^b_af(x)dx=-s
+  \end{cases}$$
 
-$f(x)$ 有正有负的时候 $\int^b_af(x)dx=s_正-s_负$
+  $f(x)$ 有正有负的时候 $\int^b_af(x)dx=s_正-s_负$
 
 - $f(x),g(x)$ 在 $[a,b]$ 可积，且 $f(x)>g(x)$ ，则 $\int^b_af(x)dx>\int^b_ag(x)dx$
 
@@ -41,7 +41,7 @@ $f(x)$ 有正有负的时候 $\int^b_af(x)dx=s_正-s_负$
 
 - 积分中值定理
 
-$f(x) \in [a,b],f(x) $ 在 $[a,b]$ 可积，一定存在$\xi \in [a,b] \rightarrow \int^b_af(x)dx=f(\xi)(b-a)$
+  $f(x) \in [a,b],f(x) $ 在 $[a,b]$ 可积，一定存在$\xi \in [a,b] \rightarrow \int^b_af(x)dx=f(\xi)(b-a)$
 
 ![](../pic/Chapter5.1.jpg)
 
