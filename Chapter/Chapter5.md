@@ -37,7 +37,7 @@ $f(x)$ 有正有负的时候 $\int^b_af(x)dx=s_正-s_负$
 
 - $f(x),g(x)$ 在 $[a,b]$ 可积，且 $f(x)>g(x)$ ，则 $\int^b_af(x)dx>\int^b_ag(x)dx$
 
-- $f(x),|f(x)|$ 在 $[a,b]$ 可积$\rightarrow |\int^b_af(x)dx|\leq \int^b_a|f(x)|dx$
+- $f(x),\lvert f(x)\rvert$ 在 $[a,b]$ 可积$\rightarrow \lvert\int^b_af(x)dx\rvert\leq \int^b_a\lvert f(x)\rvert dx$
 
 - 积分中值定理
 
