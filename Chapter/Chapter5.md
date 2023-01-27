@@ -45,5 +45,13 @@ $f(x) \in [a,b],f(x) $ 在 $[a,b]$ 可积，一定存在$\xi \in [a,b] \rightarr
 
 ![](../pic/Chapter5.1.jpg)
 
-<div align=center><img src="../pic/Chapter5.1.jpg"></div>
+## §3 定积分特殊性质
+$f(x)$ 在 $[0,1]$ 上可积
 
+$$\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac {i-1} n)=\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac i n)=\int^1_0f(x)dx$$
+
+注意$x=\frac i n$,这个只能在分子分母皆齐，分母比分子高一次的情况下使用
+
+**例题**
+
+![](../pic/Chapter5.2.jpg)
