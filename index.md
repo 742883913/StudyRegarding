@@ -14,4 +14,7 @@
 
 [第四章：不定积分](Chapter/Chapter4.md)
 
+[第五章：定积分及应用](Chapter/Chapter5.md)
+
 [高等数学做题技巧](MathSkills.md)
+
