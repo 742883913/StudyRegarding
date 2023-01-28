@@ -43,7 +43,7 @@ $$f'(a)=\lim_{x \to a}\frac{f(x)-f(a)}{x-a}=\lim_{\Delta x \to 0}\frac{\Delta y}
 ### 题目类型
 - 定义研究导数型
 
-灵活运用
+  灵活运用
 
 $$f'(x)=\lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}$$
 
@@ -61,4 +61,4 @@ $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}=\frac{\Phi '(t)}{\phi'(t)}$$
 
 - 分段函数求导
 
-要考虑区间连接处的连续性
+  要考虑区间连接处的连续性
