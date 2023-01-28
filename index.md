@@ -1,8 +1,8 @@
-# Mathematics
+# Learning Content
 
-## 项目介绍：基础阶段考研数学复习资料整理
+## 项目介绍：该项目内容是整理的平时的学习笔记与资料
 
-## 作者：王姆斯（名言：华科有手就行）
+## 项目作者：王姆斯（名言：华科有手就行）
 
 ### 高等数学
 
@@ -18,3 +18,10 @@
 
 [高等数学做题技巧](MathSkills.md)
 
+### 英语
+
+[单词](EnglishChapter/word.md)
+
+[短语](EnglishChapter/sentences.md)
+
+### 法语

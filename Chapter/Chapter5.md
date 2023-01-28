@@ -14,7 +14,9 @@
 
 [定积分一般性质](#2-定积分一般性质)
 
-[定积分特殊性质](#3-定积分特殊性质)
+[基本定理](#3-定积分基本定理)
+
+[定积分特殊性质](#4-定积分特殊性质)
 
 # 第五章：定积分及其应用
 
@@ -51,13 +53,29 @@
 
 ![](../pic/Chapter5.1.jpg)
 
-## §3 定积分特殊性质
-$f(x)$ 在 $[0,1]$ 上可积
+## §3 定积分基本定理
 
-$$\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac {i-1} n)=\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac i n)=\int^1_0f(x)dx$$
+- **积分中值定理推论**
 
-注意$x=\frac i n$,这个只能在分子分母皆齐，分母比分子高一次的情况下使用
 
-**例题**
 
-![](../pic/Chapter5.2.jpg)
+
+
+
+
+## §4 定积分特殊性质
+1.  $f(x)$ 在 $[0,1]$ 上可积
+
+  $$\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac {i-1} n)=\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac i n)=\int^1_0f(x)dx$$
+
+  注意$x=\frac i n$,这个只能在分子分母皆齐，分母比分子高一次的情况下使用
+
+  **例题**
+
+  $$\lim_{n \to \infty}\frac{1^2+2^2+...+n^2}{n^3}$$
+
+  [答案](../pic/Chapter5.2.jpg)
+  
+  
+  
+  ![](../pic/Chapter5.2.jpg)
