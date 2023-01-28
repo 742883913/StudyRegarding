@@ -83,6 +83,7 @@
 - **$\int^a_{-a}f(x)dx=\int^a_0f(x)+f(-x)dx$**
 
 - **$\int^{\frac \pi 2}_0f(sinx)dx=\int^{\frac \pi 2}_0f(cosx)dx$**
+  
   **例题**
   $\int^1_0\frac 1 {x+\sqrt{1-x^2}}dx$
 
@@ -96,7 +97,7 @@
     I_1=1
   \end{cases}$$
 
-  例如：$I_4=\frac 3 4*\frac 1 2*\frac{\pi}{2}$
+  例如：$I_4=\frac{3}{4} * \frac{1}{2} * \frac{\pi}{2}$
 
   **例题**：$\int^{\frac{\pi}2}_{-\frac{\pi}2}(\frac{sin^4x}{1+e^x})dx$
 
