@@ -60,7 +60,7 @@
   $f(x) \in [a,b],f(x) $ 在 $[a,b]$ 可积，一定存在$\xi \in (a,b)\rightarrow \int^b_af(x)dx=f(\xi)(b-a)$
 
   **例题**
-  $f(x) \in c[0,1],f(x)$在$(0,1)$可导$,f(0)=\int^1_0f(x)dx,$证明：$\exist \xi \in (0,1),f'(\xi)=0$
+  $f(x) \in c[0,1],f(x)$在$(0,1)$可导$,f(0)=\int^1_0f(x)dx,$证明：$\exists \xi \in (0,1),f'(\xi)=0$
 
   [答案](../pic/Chaper5.3.jpg)
 
