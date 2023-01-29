@@ -54,11 +54,13 @@
   \end{cases}$$
 
 - **大量**
+
   $$\begin{cases}
     \text{a multitude of,multitude 也有群众的意思}\\
   \end{cases}$$
 
 - **以免**
+ 
   $$\begin{cases}
     \text{lest,连词}\\
     \text{in case of/in case}\\
