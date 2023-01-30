@@ -126,3 +126,88 @@
   $$\lim_{x \to 0}\frac{\int^x_0tf(x^2-t^2)dt}{x^4}$$
 
   [答案](../pic/Chapter5.5.jpg)
+
+## §6 反常积分
+**总之做题思路为：1.定义法直接求出来 2.判别法证明出收敛性再计算**
+### 积分区域无限型
+- **下限无穷型**
+   
+   $$\int^b_{-\infty}f(x)dx=\lim_{a \to -\infty}\int^b_af(x)dx$$
+
+  敛散性判别法：
+  1. 若存在$\alpha>1,\lim_{x \to -\infty}x^{\alpha}f(x)$存在，则$\int^b_{-\infty}f(x)dx$收敛
+  
+  2. 若存在$\alpha \leq 1,\lim_{x \to -\infty}x^{\alpha}f(x)=k(k\neq0)或\infty$,则$\int^b_{-\infty}f(x)dx$发散
+  
+- **上限无穷型**
+  
+  $$\int^{+\infty}_af(x)dx=\lim_{b \to +\infty}\int^b_af(x)dx$$
+
+  敛散性判别法：
+  1. 若存在$\alpha>1,\lim_{x \to +\infty}x^{\alpha}f(x)$存在，则$\int^{+\infty}_{a}f(x)dx$收敛
+  2. 若存在$\alpha \leq 1,\lim_{x \to +\infty}x^{\alpha}f(x)=k(k\neq 0)或\infty$，则$\int^{+\infty}_{a}f(x)dx$发散
+   
+- **上下限无穷型**
+  $\int^{+\infty}_{-\infty}f(x)dx=\int^{a}_{-\infty}f(x)dx+int^{+\infty}_{a}f(x)dx$
+
+  敛散$\Longleftrightarrow$敛散+敛散
+
+- **$\Gamma$函数** 
+   - $\Gamma(\alpha)=\int^{+\infty}_0x^{\alpha -1}e^{-x}dx$
+  
+  $$\begin{cases}
+    \Gamma(\alpha+1)=\alpha\Gamma(\alpha)\\
+    \Gamma(n+1)=n!\\
+    \Gamma(\frac1 2)=\sqrt{\pi}
+  \end{cases}$$
+
+  例题：求$\int^{+\infty}_0x^2e^{-x^2}dx$
+
+  [答案](../pic/Chapter5.8.jpg)
+
+### 有无穷间断点型
+- $(a,b]$型
+  总存在$\epsilon>0$使
+
+  $$\int^b_{a+\epsilon}f(x)dx=F(b)-F(a+\epsilon)$$
+
+  $$\lim_{\epsilon \to {0^+}}[F(b)-F(a+\epsilon)]=\int^b_{a}f(x)dx$$
+  定义法
+  1. $\lim_{\epsilon \to {0^+}}[F(b)-F(a+\epsilon)]=A$,则收敛。
+  2. $\lim_{\epsilon \to {0^+}}[F(b)-F(a+\epsilon)]$不存在，则发散
+  
+  敛散性判别法
+  1. $\exists \alpha<1,\lim_{x \to a^+}(x-a)^{\alpha}f(x)$存在则收敛
+  2. $\exists \alpha \geq 1,\lim_{x \to a^+}(x-a)^{\alpha}f(x)=k(k\neq0)或\infty$则发散
+  
+  例题：求$\int^{\frac1 2}_0\frac1 {\sqrt{x-x^2}}dx$
+
+  [答案](../pic/Chapter5.9.jpg)
+
+- $[a,b)$型
+  总存在$\epsilon<0$使
+
+  $$\int^{b+\epsilon}_{a}f(x)dx=F(b+\epsilon)-F(a)$$
+
+  $$\lim_{\epsilon \to {0^-}}[F(b+\epsilon)-F(a)]=\int^b_{a}f(x)dx$$
+  
+  定义法
+  1. $\lim_{\epsilon \to {0^-}}[F(b+\epsilon)-F(a)]=A$,则收敛。
+  2. $\lim_{\epsilon \to {0^-}}[F(b+\epsilon)-F(a)]$不存在，则发散
+
+  敛散性判别法
+  1. $\exists \alpha<1,\lim_{x \to a^-}(b-x)^{\alpha}f(x)$存在则收敛
+  2. $\exists \alpha \geq 1,\lim_{x \to a^-}(b-x)^{\alpha}f(x)=k(k\neq0)或\infty$,则发散
+
+- $[a,c)\cup(c,b]$型
+  $\int^{b}_{a}f(x)dx=\int^{c}_{a}f(x)dx+\int^{b}_{c}f(x)dx$
+
+  敛散$\Longleftrightarrow$敛散+敛散
+
+  例题：
+  1. $\int^2_0\frac{1}{\sqrt{2x-x^2}}dx$
+   
+   [答案](../pic/Chapter5.10.jpg)
+  2. $\int^{\frac 3 2}_{\frac 1 2}\frac{1}{\sqrt{|x-x^2|}}dx$
+
+  [答案](../pic/Chapter5.11.jpg)
