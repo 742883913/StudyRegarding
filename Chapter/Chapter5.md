@@ -149,7 +149,7 @@
    
 - **上下限无穷型**
   
-  $\int^{+\infty}_{-\infty}f(x)dx=\int^{a}_{-\infty}f(x)dx+int^{+\infty}_{a}f(x)dx$
+  $$\int^{+\infty}_{-\infty}f(x)dx=\int^{a}_{-\infty}f(x)dx+int^{+\infty}_{a}f(x)dx$$
 
   敛散$\Longleftrightarrow$敛散+敛散
 
@@ -203,7 +203,7 @@
 
 - $[a,c)\cup(c,b]$型
   
-  $\int^{b}_{a}f(x)dx=\int^{c}_{a}f(x)dx+\int^{b}_{c}f(x)dx$
+  $$\int^{b}_{a}f(x)dx=\int^{c}_{a}f(x)dx+\int^{b}_{c}f(x)dx$$
 
   敛散$\Longleftrightarrow$敛散+敛散
 
