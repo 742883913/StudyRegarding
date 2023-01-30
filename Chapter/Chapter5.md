@@ -149,7 +149,7 @@
    
 - **上下限无穷型**
   
-  $$\int^{+\infty}_{-\infty}f(x)dx=\int^{a}_{-\infty}f(x)dx+int^{+\infty}_{a}f(x)dx$$
+  $$\int^{+\infty}_{-\infty}f(x)dx=\int^{a}_{-\infty}f(x)dx+\int^{+\infty}_{a}f(x)dx$$
 
   敛散$\Longleftrightarrow$敛散+敛散
 
