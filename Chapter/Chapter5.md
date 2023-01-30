@@ -148,6 +148,7 @@
   2. 若存在$\alpha \leq 1,\lim_{x \to +\infty}x^{\alpha}f(x)=k(k\neq 0)或\infty$，则$\int^{+\infty}_{a}f(x)dx$发散
    
 - **上下限无穷型**
+  
   $\int^{+\infty}_{-\infty}f(x)dx=\int^{a}_{-\infty}f(x)dx+int^{+\infty}_{a}f(x)dx$
 
   敛散$\Longleftrightarrow$敛散+敛散
@@ -172,6 +173,7 @@
   $$\int^b_{a+\epsilon}f(x)dx=F(b)-F(a+\epsilon)$$
 
   $$\lim_{\epsilon \to {0^+}}[F(b)-F(a+\epsilon)]=\int^b_{a}f(x)dx$$
+  
   定义法
   1. $\lim_{\epsilon \to {0^+}}[F(b)-F(a+\epsilon)]=A$,则收敛。
   2. $\lim_{\epsilon \to {0^+}}[F(b)-F(a+\epsilon)]$不存在，则发散
@@ -200,6 +202,7 @@
   2. $\exists \alpha \geq 1,\lim_{x \to a^-}(b-x)^{\alpha}f(x)=k(k\neq0)或\infty$,则发散
 
 - $[a,c)\cup(c,b]$型
+  
   $\int^{b}_{a}f(x)dx=\int^{c}_{a}f(x)dx+\int^{b}_{c}f(x)dx$
 
   敛散$\Longleftrightarrow$敛散+敛散
@@ -208,6 +211,6 @@
   1. $\int^2_0\frac{1}{\sqrt{2x-x^2}}dx$
    
    [答案](../pic/Chapter5.10.jpg)
-  2. $\int^{\frac 3 2}_{\frac 1 2}\frac{1}{\sqrt{|x-x^2|}}dx$
+  2. $\int^{\frac 3 2}_{\frac 1 2}\frac{1}{\sqrt{\|x-x^2\|}}dx$
 
   [答案](../pic/Chapter5.11.jpg)
