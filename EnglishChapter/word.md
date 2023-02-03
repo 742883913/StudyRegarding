@@ -13,6 +13,6 @@ obligation<br>liability<br>responsibility|n.义务/责任|prestige<br>reputation
 coarse<br>vulgar|adj.粗鲁的|impart<br>inform|v.告知，通知
 defer<br>postpone<br>delay|v.延期，推迟|feasible<br>plausible|adj.可行的<br>adj.貌似可信的
 splendid<br>spectacular|adj.壮观的|fabulous|adj.难以置信的
-detain|v.扣留，耽搁
+detain|v.扣留，耽搁|confer sth on sb|授予
 hitherto|adv.迄今，到目前为止
 erroneous<br>wrong|adj.错误的
