@@ -25,3 +25,4 @@
 [短语](EnglishChapter/sentences.md)
 
 ### 法语
+[发音](Franch/pronounce.md)
