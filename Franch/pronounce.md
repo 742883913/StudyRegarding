@@ -1,3 +1,15 @@
+<head>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      inlineMath: [['$','$']]
+      }
+    });
+  </script>
+</head>
+
 # 发音规则
 ## 发音黄金四规则
 - 元音字母：a,e.o,i,u,y
@@ -43,3 +55,25 @@
 - 在结尾一般不发音
 - ex$+$辅音读$\epsilon ks$
 - ex$+$元音读$\epsilon gz$
+
+### 带符号的字母
+- a,i,u带不带符号没影响
+- ô则读成窄o
+- ç读音变成s
+- é发成英文字母a的音
+- è;ê;Ë都读作$\epsilon$
+
+### on,om和ou
+- on，om有点浓的那个感觉
+- on/om+元音字母/n/m ，读作o加n
+- ou读作呜，oû,où不变
+  
+### ch和en
+- ch读作$\int$
+- en,em,an,am读作半开的昂
+- en,em,an,am+元音字母/m/n，就分开读 
+  
+### au和oi
+- au一般读作窄口o，但遇见r读正常o
+- eau也读作窄口o
+- oi读作wa，w要震动，字母带标也不变

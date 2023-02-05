@@ -14,5 +14,5 @@ coarse<br>vulgar|adj.粗鲁的|impart<br>inform|v.告知，通知
 defer<br>postpone<br>delay|v.延期，推迟|feasible<br>plausible|adj.可行的<br>adj.貌似可信的
 splendid<br>spectacular|adj.壮观的|fabulous|adj.难以置信的
 detain|v.扣留，耽搁|confer sth on sb|授予
-hitherto|adv.迄今，到目前为止
+hitherto|adv.迄今，到目前为止|slash<br>ax|削<br>砍
 erroneous<br>wrong|adj.错误的
