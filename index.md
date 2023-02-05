@@ -16,6 +16,8 @@
 
 [第五章：定积分及应用](Chapter/Chapter5.md)
 
+[第六章：多元函数微分学](Chapter/Chapter6.md)
+
 [高等数学做题技巧](MathSkills.md)
 
 ### 英语
