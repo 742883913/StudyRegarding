@@ -85,6 +85,9 @@
 - 在词末开音节和[z]前读作$\phi$
 - 其他情况读作e
 
+### 鼻化元音
+- un,um,aim,ain,eim,ein,in,im,yn,ym有点安的鼻音的感觉
+
 ### tion,oin,ien
 - tion前有s则变成茨ion
 - oin有点one的意思
@@ -94,3 +97,17 @@
 - gn有nie的感觉
 - il,ill读作i，不是元音
 - ill前没有元音读【iy】
+
+### 三个半元音
+- u的音加元音价格短w
+- [i]加元音边[j]
+
+### er,ez,et,es
+- er放动词词尾读a的音
+- ez词尾也读a的音
+- et词尾读$\epsilon$
+- es作为复数不读，遇到短小词发a的音
+
+### gr和元音+y+元音
+- gr中g读g
+- 元音+y+元音拆成ii
