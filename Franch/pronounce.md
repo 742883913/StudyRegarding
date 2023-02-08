@@ -77,3 +77,20 @@
 - au一般读作窄口o，但遇见r读正常o
 - eau也读作窄口o
 - oi读作wa，w要震动，字母带标也不变
+
+### ai和ei
+- 加不加音符都读作$\epsilon$
+
+### eu和oeu
+- 在词末开音节和[z]前读作$\phi$
+- 其他情况读作e
+
+### tion,oin,ien
+- tion前有s则变成茨ion
+- oin有点one的意思
+- ien有yougn的感觉
+  
+### gn,il,ill
+- gn有nie的感觉
+- il,ill读作i，不是元音
+- ill前没有元音读【iy】
