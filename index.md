@@ -18,6 +18,8 @@
 
 [第六章：多元函数微分学](Chapter/Chapter6.md)
 
+[第七章：微分方程](Chapter/Chapter7.md)
+
 [高等数学做题技巧](MathSkills.md)
 
 ### 英语
