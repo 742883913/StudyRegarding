@@ -30,3 +30,4 @@
 
 ### 法语
 [发音](Franch/pronounce.md)
+[单词](Franch/words.md)
