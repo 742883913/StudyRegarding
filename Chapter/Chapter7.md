@@ -14,8 +14,7 @@
 - 定义：微分方程的解是指使方程成立的函数，特解指不含任意常数的解
 
 ## §1 一阶微分方程
-1. 可分离变量的微分方程
-   
+1. 可分离变量的微分方程 
   - 定义：设$\frac{dy}{dx}=f(x,y)$若$f(x,y)=\phi_1(x)\phi_2(y)$则称为可分离变量的微分方程
   - 解法：$\frac{dy}{dx}=\phi_1(x)\phi_2(y) \rightarrow \frac{dy}{\phi_2(y)}=\phi_1(x)dx \rightarrow \int \frac{dy}{\phi_2(y)}=\int \phi_1(x)dx +C$
 
