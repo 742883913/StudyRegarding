@@ -29,3 +29,14 @@
 4. 一阶非齐次线性微分方程
   - 定义：形如：$\frac{dy}{dx}+p(x)y=Q(x)$
   - 解法：通解公式：$y=[\int Q(x)e^{\int p(x)dx}dx]e^{-\int p(x)dx}$
+
+
+## §2 可降阶的高阶微分方程
+
+1. $y^{(n)}=Q(x),(n\geq2)$(没难度)
+
+2. $f(x,y,y'')=0$
+  解法：令$\frac{dy}{dx}=p,\frac{d^2y}{dx^2}=\frac{dp}{dx}$
+
+3. $f(y,y',y'')=0$
+  解法：令$\frac{dy}{dx}=p,\frac{d^2y}{dx^2}=p\frac{dp}{dy}$
