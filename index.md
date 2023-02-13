@@ -20,6 +20,8 @@
 
 [第七章：微分方程](Chapter/Chapter7.md)
 
+[第八章：重积分](Chapter/Chapter8.md)
+
 [高等数学做题技巧](MathSkills.md)
 
 ### 英语
