@@ -7,6 +7,7 @@
 五|cinq|十|dix
 
 # A1 unité un
+
 中文|Français|中文|Français
 ---|---|---|---
 你好|bonjour|法国人|Français<br>Française
@@ -15,6 +16,7 @@
 小姐|mademoiselle<br>mesdemoiselles|大学生|étudiant<br>étudiante
 男人；人类|homme|女人；妻子|femme
 丈夫|mari
+
 
 中文|Français
 ---|---
