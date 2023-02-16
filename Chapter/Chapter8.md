@@ -42,3 +42,23 @@
 
 7. 中值定理：
    设$f(x,y)$在$D$上连续，$A$为$D$面积，则一定存在$(m,n) \in D$使$\int \int _D f(x,y)dxdy=f(m,n)A$
+  
+### 计算方法：
+1. 直角坐标法
+   $\int \int _D f(x,y)d\alpha=\int^b_adx\int^{\phi _2(x)}_{\phi _1(x)}f(x,y)dy$
+
+  注意：以下情况积不了要改变积分次序
+
+  $$\begin{cases}
+    x^{2n}e^{\pm x^2}dx\\
+    e^{\frac{k}{x}}dx\\
+    cos\frac{k}{x}dx\\
+    sin \frac{k}{x}dx
+  \end{cases}$$
+
+  [例题]
+
+2. 极坐标法（一般$D$或$f(x,y)$中包含$x^2+y^2$使用极坐标法）
+   令$x=rcos\theta,y=rsin\theta,\rightarrow d\alpha=rdrd\theta$
+   
+   [例题]
