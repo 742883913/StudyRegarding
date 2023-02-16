@@ -45,6 +45,7 @@
   
 ### 计算方法：
 1. 直角坐标法
+   
    $\int \int _D f(x,y)d\alpha=\int^b_adx\int^{\phi _2(x)}_{\phi _1(x)}f(x,y)dy$
 
   注意：以下情况积不了要改变积分次序
