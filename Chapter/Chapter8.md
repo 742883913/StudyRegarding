@@ -85,10 +85,12 @@
 
     8.3例题：$I=\int\int\int_{\Omega}\sqrt{x^2+y^2}dv,x^2+y^2+z^2\leq4$
 
-    [答案]
+    [答案](../pic/8.4.jpg)
 
 3. 球面坐标变化法
     见图变换：
+
+    ![](../pic/8.3.jpg)
 
     $$\begin{cases}
     x=rsin\phi cos\theta\\
@@ -99,5 +101,5 @@
   
     8.4例题：$I=\int \int \int _{\Omega}zdv,\Omega:x^2+y^2+(z-2)^2 \leq 4$
   
-    [答案]
+    [答案](../pic/8.5.jpg)
 
