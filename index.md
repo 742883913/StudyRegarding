@@ -22,6 +22,8 @@
 
 [第八章：重积分](Chapter/Chapter8.md)
 
+[第九章：级数](Chapter/Chapter9.md)
+
 [高等数学做题技巧](MathSkills.md)
 
 ### 英语
