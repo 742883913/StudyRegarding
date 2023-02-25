@@ -146,3 +146,35 @@ $$\begin{cases}
 
 什么时候求$s(0)$：1.$x$在分母时无意义讨论2.先导后积如$s(x)-s(0)=\int_0^xs(x)dx\rightarrow s(x)=\int^x_0s(x)dx+s(0)$
 
+#### 傅里叶级数
+
+- $f(x)$以$2\pi$为周期，将其展成傅里叶级数
+  $x$为连续点时：$f(x)=\frac{a_0}{2}+\sum_{n=0}^{\infty}(a_ncosnx+b_nsinnx)$
+
+  $$\begin{cases}
+   a_0=\frac{1}{\pi}\int _{-\pi}^{\pi}f(x)dx\\
+   a_n=\frac{1}{\pi}\int _{-\pi}^{\pi}f(x)cosnxdx\\
+   b_n=\frac{1}{\pi}\int _{-\pi}^{\pi}f(x)sinnxdx
+  \end{cases}$$
+
+   $x$为间断点时：$f(x)=\frac{f(x-0)+f(x+0)}{2}$
+
+- $f(x)$定义于$[-\pi,\pi]$,将其展成傅里叶级数，先将其延拓，然后做法一模一样。
+
+- $f(x)$定义于$[0,\pi]$,将其展成傅里叶级数，可以进行奇、偶对称再延拓，做法一样。
+
+- $f(x)$以$2\rho$为周期，将其展成傅里叶级数
+  $x$为连续点时：$f(x)=\frac{a_0}{2}+\sum_{n=0}^{\infty}(a_ncos\frac{n\pi x}{\rho}+b_nsin\frac{n\pi x}{\rho})$
+
+  $$\begin{cases}
+   a_0=\frac{1}{\rho}\int _{-\rho}^{\rho}f(x)dx\\
+   a_n=\frac{1}{\rho}\int _{-\rho}^{\rho}f(x)cos\frac{n\pi x}{\rho}dx\\
+   b_n=\frac{1}{\rho}\int _{-\rho}^{\rho}f(x)sin\frac{n\pi x}{\rho}dx
+  \end{cases}$$
+
+  $x$为间断点时：$f(x)=\frac{f(x-0)+f(x+0)}{2}$
+
+  其他情况与前面的做法一模一样！
+  []
+
+  
