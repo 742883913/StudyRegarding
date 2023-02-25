@@ -134,7 +134,7 @@ $$\begin{cases}
 
  [例题](../pic/9.3.jpg)
 
-6.两类题型
+6. 两类题型
 
 - $\sum p(n)x^n\Rightarrow1.\frac{1}{1+x} =\sum_0^{\infty}(-1)^nx^n,(-1<x<1);2.\frac{1}{1-x}=\sum_0^{\infty}x^n,(-1<x<1)$
 
@@ -143,4 +143,6 @@ $$\begin{cases}
 - $\sum\frac{x^n}{p(n)}\Rightarrow1.ln(1+x)=\sum_1^{\infty}\frac{(-1)^{n-1}}{n}x^n,(-1<x\leq 1);2.-ln(1-x)=\sum_{n=1}^{\infty}\frac{x^n}{n},(-1\leq x<1)$
   
   [例题](../pic/9.2.jpg)
+
+什么时候求$s(0)$：1.$x$在分母时无意义讨论2.先导后积如$s(x)-s(0)=\int_0^xs(x)dx\rightarrow s(x)=\int^x_0s(x)dx+s(0)$
 
