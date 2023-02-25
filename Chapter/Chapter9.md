@@ -14,6 +14,7 @@
 ## 常数项级数
 #### 定义：
 1. 若$\{a_n\}$为数列，则$\sum_{n=1}^{\infty}a_n$为常数项级数
+
 2. $S_n=a_1+···+a_n,\lim _{n \to \infty}S_n=\sum_{n=1}^{\infty}a_n$
 
 #### 收敛基本性质
@@ -38,6 +39,7 @@
     \end{cases}$$
 
 #### 几何级数（等比数列之和）
+
 $$\begin{cases}
     发散,q \geq 1\\
     收敛，q <1
@@ -86,6 +88,7 @@ $$\begin{cases}
 
 #### 幂级数
 1. 定义：幂级数形如
+   
    $$\begin{cases}
     a_0+a_1x+a_2x^2+···=\sum_0^{\infty}a_nx^n\\
     a_0+a_1(x-x_0)+a_2(x-x_0)^2+···=\sum_0^{\infty}a_n(x-x_0)^n
@@ -95,7 +98,7 @@ $$\begin{cases}
 
 2. 阿贝尔定理：
    
-   $\exists R,|x|<R$绝对收敛,$|x|>R$发散，$R$称为收敛半径
+   $\exists R,\|x\|<R$绝对收敛,$\|x\|>R$发散，$R$称为收敛半径
 
 3. 收敛半径的计算：
    $\sum_0^{\infty}a_nx^n$,若$\lim_{n \to \infty}|\frac{a_{n+1}}{an}|=\rho,lim_{n\to \infty}\sqrt[n]{|a_n|}=\rho$
