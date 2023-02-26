@@ -24,6 +24,8 @@
 
 [第九章：级数](Chapter/Chapter9.md)
 
+[第十章：空间解析几何](Chapter/Chapter10.md)
+
 [高等数学做题技巧](MathSkills.md)
 
 ### 英语
