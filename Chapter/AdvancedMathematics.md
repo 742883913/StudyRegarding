@@ -138,3 +138,36 @@
   - 曲率半径： 
   
   $$R=\frac{1}{k}$$
+
+#### 题型
+- 题型一：证明$f^{(n)}(\xi)=0$
+  （一）$f'(\xi)=0\Rightarrow$罗尔定理
+  
+  （二）$f''(\xi)=0\Rightarrow$找$f'(\xi _1)=f'(\xi _2)$再罗尔；找$f(a),f(b),f(c)$用两次拉格朗日一次罗尔
+
+  [例题]
+
+- 题型二：证明中只含$\xi$无其他值
+
+  （一）仅含两项；导数差距为一阶$\Rightarrow \frac{f'(x)}{f(x)}=[lnf(x)]';\frac{f''(x)}{f'(x)}=[lnf'(x)]'$
+
+  （二）多余两项；导数差距大于等于一阶$\Rightarrow$分组法灵魂是一样的
+
+  [例题]
+
+- 题型三：证明中有$\xi,a,b$
+  
+  （一）$\xi,a,b$可分离
+
+  $$\begin{cases}
+    a,b侧:\frac{f(b)-f(a)}{b-a}用拉格朗日\\
+    a,b侧:\frac{f(b)-f(a)}{g(b)-g(a)}用柯西\\
+    \xi 侧:[\phi(x)]'|_{\xi}用拉格朗日\\
+    \xi 侧:\frac{[f(x)]'}{[g(x)]'}|_{\xi}用柯西
+  \end{cases}$$
+
+  （二）$\xi,a,b$不可分离用凑微法
+  
+  去分母，移项$\Rightarrow$式子$=0\Rightarrow$凑微分
+
+  [例题]
