@@ -26,6 +26,8 @@
 
 [第十章：空间解析几何](Chapter/Chapter10.md)
 
+[第十一章：曲线与曲面积分](Chapter/Chapter11.md)
+
 [高等数学做题技巧](MathSkills.md)
 
 ### 英语
