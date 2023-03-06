@@ -26,7 +26,7 @@ $$\int _lf(x,y)ds=\int_a^bf(x,\phi(x))\sqrt{1+\phi'^2(x)}dx$$
 $$\int _lf(x,y)ds=\int_{\alpha}^{\beta}f[\phi(t),\Phi(t)]\sqrt{\phi'^2(t)+\Phi'^2(t)}dt$$
 
 ## 第二类曲线积分（对坐标）
-（一）应用情形（做工）：$dw=\vec{F}·\vec{s},\vec{F}=\{P(x,y), Q(x,y)\},\vec{S}=\{dx,dy\}\r\Rightarrow w=\int _LP(x,y)dx+Q(x,y)dy$
+（一）应用情形（做工）：$dw=\vec{F}·\vec{s},\vec{F}=\{P(x,y), Q(x,y)\},\vec{S}=\{dx,dy\}\Rightarrow w=\int _LP(x,y)dx+Q(x,y)dy$
 
 （二）性质:$\int _{L^-}=-\int _L$
 
