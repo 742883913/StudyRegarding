@@ -178,4 +178,50 @@
 
   [例题](../pic/x3.1.jpg)
 
-- 题型四：
+- 题型四：多中值
+  
+  （一）仅有$f'(\xi),f'(\alpha)\Rightarrow $找三点，两次拉格朗日
+
+  （二）$\xi,\alpha$对应的项的复杂程度不同$\rightarrow$留复杂
+
+  $$\begin{cases}
+    [f(x)]' \rightarrow 拉格朗日\\
+    \frac{f'(x)}{g'(x)} \rightarrow 柯西
+  \end{cases}$$
+
+- 题型六：拉格朗日中值定理的用法
+  
+  （一）$f(b)-f(a) \Rightarrow $拉格朗日
+  （二）$f(a),f(c),f(b)\Rightarrow$两次拉格朗日
+  
+    仅在$\lim f(x),\lim g(x)\exists$下, $ \lim[f(x) \pm g(x)]=\lim f(x)+\lim g(x)$成立
+
+#### 单调性与极值的凹凸性
+
+- 型一：不等式的证明
+  
+  （一）单调性
+
+  $f(a)=0,f'(x)>0(x>a) \rightarrow f(x)$在$x>a$时$f(x)>0$
+
+  （二）不等式中有
+
+  $$\begin{cases}
+    f(b)-f(a)or\frac{f(b)-f(a)}{b-a}\rightarrow 拉格朗日\\
+    \frac{f(a)-f(b)}{g(a)-g(b)}\rightarrow 柯西
+  \end{cases}$$
+
+- 型二：极值点判断
+  
+  极值点可能是驻点也可能是导数不存在的点
+
+- 型三：零点
+
+（一）零点定理
+
+（二）罗尔定理：
+
+$F(a)=F(b) \Rightarrow \exists c \in (a,b),F'(c)=f(c)=0$
+
+（三）单调性
+6
