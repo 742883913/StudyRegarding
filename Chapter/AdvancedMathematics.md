@@ -177,3 +177,5 @@
   去分母，移项$\Rightarrow$式子$=0\Rightarrow$凑微分
 
   [例题](../pic/x3.1.jpg)
+
+- 题型四：
