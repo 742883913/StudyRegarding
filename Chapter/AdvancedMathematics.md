@@ -189,12 +189,20 @@
     \frac{f'(x)}{g'(x)} \rightarrow 柯西
   \end{cases}$$
 
+  [例题](../pic/x4.1.jpg)
+
+  [例题](../pic/x4.2.jpg)
+
 - 题型六：拉格朗日中值定理的用法
   
   （一）$f(b)-f(a) \Rightarrow $拉格朗日
   （二）$f(a),f(c),f(b)\Rightarrow$两次拉格朗日
   
     仅在$\lim f(x),\lim g(x)\exists$下, $ \lim[f(x) \pm g(x)]=\lim f(x)+\lim g(x)$成立
+
+  [例题](../pic/x6.1.jpg)
+
+  [例题](../pic/x6.2.jpg)
 
 #### 单调性与极值的凹凸性
 
@@ -223,5 +231,6 @@
 
 $F(a)=F(b) \Rightarrow \exists c \in (a,b),F'(c)=f(c)=0$
 
+[例题](../pic/x.jpg)
+
 （三）单调性
-6
