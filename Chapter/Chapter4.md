@@ -31,7 +31,8 @@ $$\begin{cases}
 
 $$\begin{cases}
     (secx)^2=1+(tanx)^2\\
-    (cscx)^2=1+(cotx)^2
+    (cscx)^2=1+(cotx)^2\\
+    (sin^2x)'=sin2x
 \end{cases}$$
 
 $$\begin{cases}
