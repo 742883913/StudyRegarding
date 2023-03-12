@@ -53,6 +53,7 @@ $$\begin{cases}
 
 $$\begin{cases}
     \int xe^xdx=(x-1)e^x+c\\
+    \int \frac{1-lnx}{x^2}=(\frac{lnx}{x})'\\
     \int tanxdx=-ln|cosx|+c\\
     \int cotxdx=ln|sinx|+c\\
     \int secxdx=ln|secx+tanx|+c\\
