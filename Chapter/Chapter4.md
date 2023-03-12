@@ -52,6 +52,7 @@ $$\begin{cases}
 ## §2 重要基本公式
 
 $$\begin{cases}
+    \int xe^xdx=(x-1)e^x+c\\
     \int tanxdx=-ln|cosx|+c\\
     \int cotxdx=ln|sinx|+c\\
     \int secxdx=ln|secx+tanx|+c\\
