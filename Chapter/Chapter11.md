@@ -56,3 +56,46 @@ $$\begin{cases}
 推论：
  1. 若$\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y},$则原式$=\int _{(x_0,y_0)}^{(x_1,y_1)}Pdx+Qdy=\int _{x_0}^{x_1}P(x,y_0)dx+\int _{y_0}^{y_1}Q(x_1,y)dy$ 
  2. 若$\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y},$则原式$=\int _{(x_0,y_0)}^{(x,y)}Pdx+Qdy=\int _{x_0}^{x}P(x,y_0)dx+\int _{y_0}^{y}Q(x,y)dy$ 
+
+# 曲面积分
+## 第一类曲面积分（对面积积分）
+
+（一）性质：
+ 
+  1. $\int \int _{\sum}1ds=A$
+  2. $\sum$上下对称，上部面为$\sum _1$（其他情形类似）
+
+   $$\begin{cases}
+    f(x,y,-z)=f(x,y,z),\int \int _{\sum}=2\int \int _{\sum _1}\\
+    f(x,y,-z)=-f(x,y,z),\int \int _{\sum}=0
+   \end{cases}$$
+
+（二）计算（设$z=\phi(x,y)$情形下）
+
+$$I=\int \int _{\sum}f(x,y,z)ds=\int \int _{D_{xy}}f[x,y,\phi(x,y)]\sqrt{1+(\frac{\partial z}{\partial x})^2+(\frac{\partial z}{\partial y})^2}dxdy$$
+
+## 第二类曲面积分（对坐标的曲面积分）
+
+（一）定义：$\vec{ds}=(dydz,dxdz,dxdy),\vec{v}=(P,Q,R),\int \int _{\sum}Pdydz+Qdxdz+Rdxdy$
+
+（二）性质：
+
+  1. $\int \int _{\sum ^-}Pdydz+Qdxdz+Rdxdy=-\int \int _{\sum}Pdydz+Qdxdz+Rdxdy$
+  2. $\int \int _{\sum}Pdydz+Qdxdz+Rdxdy=\int \int _{\sum}Pcos\alpha +Qcos\beta+Rcos\gamma ds$
+
+（三）计算：
+
+  1. $\int \int _{\sum}Pdydz$（其他方向类似，面朝自己的面为正）
+   
+   第一步：$x=\phi(y,z),yz\in D(y,z)$
+
+   第二步：$\int \int _{\sum}Qdydz=\pm \int \int _{D_{yz}}P[\phi(y,z),y,z]dydz$
+
+   Tips：关于轴对称的奇函数=2正的面
+
+  2. 高斯公式，已知一个封闭几何体$\Omega,\sum$为其朝外表面
+   
+   $$\int \int _{\sum}Pdydz+Qdxdz+Rdxdy=\int \int \int _{\Omega}(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z})dv$$
+ 
+ 
+  ![](../pic/11.1.png)
