@@ -30,6 +30,10 @@
 
 [高等数学做题技巧](MathSkills.md)
 
+### 线性代数
+
+[整合版](LinearAlgebra.md)
+
 ### 英语
 
 [单词](EnglishChapter/word.md)
