@@ -110,7 +110,9 @@
 
    （四）点到直线的距离：
 
-   ![](../pic/10.1.jpg)
+
+     <div align="center"><img src="../pic/10.1.jpg" width="300"></div>
+    <div align="center"> 说明</div>
 
    （五）异面直线的距离：设$l_1,l_2$上的两点和方向向量为$m_1,m_2,\vec{s_1},\vec{s_2}$
    

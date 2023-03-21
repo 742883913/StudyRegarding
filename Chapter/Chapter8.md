@@ -90,7 +90,9 @@
 3. 球面坐标变化法
     见图变换：
 
-    ![](../pic/8.3.jpg)
+    <div align="center"><img src="../pic/8.3.jpg" width="400"></div>
+    <div align="center"> 说明</div>
+
 
     $$\begin{cases}
     x=rsin\phi cos\theta\\

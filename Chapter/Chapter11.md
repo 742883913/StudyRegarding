@@ -96,9 +96,6 @@ $$I=\int \int _{\sum}f(x,y,z)ds=\int \int _{D_{xy}}f[x,y,\phi(x,y)]\sqrt{1+(\fra
   2. 高斯公式，已知一个封闭几何体$\Omega,\sum$为其朝外表面
    
    $$\int \int _{\sum}Pdydz+Qdxdz+Rdxdy=\int \int \int _{\Omega}(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z})dv$$
- 
- 
-  ![](../pic/11.1.png)
 
   <div align="center"><img src="../pic/11.1.png" width="600"></div>
-  <div align="center">Pic1: 图片说明</div>
+  <div align="center"> 旋度，散度，通量</div>

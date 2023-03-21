@@ -53,7 +53,8 @@
 
   $f(x) \in [a,b],f(x) $ 在 $[a,b]$ 可积，一定存在$\xi \in [a,b] \rightarrow \int^b_af(x)dx=f(\xi)(b-a)$
 
-![](../pic/Chapter5.1.jpg)
+  <div align="center"><img src="../pic/Chapter5.1.jpg" width="400"></div>
+  <div align="center"> 说明</div>
 
 ## §3 定积分基本定理
 

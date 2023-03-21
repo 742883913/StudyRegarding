@@ -10,6 +10,11 @@
   </script>
 </head>
 
+**目录：**
+
+[第一章：行列式](#行列式)
+
+
 # 行列式
 
 ## 第一种概念：几何意义
@@ -32,8 +37,9 @@
 
 ## 第三种概念：行列式展开定理
 
-- **余子式**：记作 $M_{ij}$；
-- **代数余子式**：记作$A_{ij}=(-1)^{i+j}M_{ij}$
+**余子式**：记作 $M_{ij}$；
+
+**代数余子式**：记作$A_{ij}=(-1)^{i+j}M_{ij}$
 
 $$\lvert A\rvert=\sum _{i=1}^{n}a_{ij}A_{ij}$$
 
@@ -49,6 +55,57 @@ $$\lvert A\rvert=\sum _{i=1}^{n}a_{ij}A_{ij}$$
  \end{vmatrix}=
  \begin{vmatrix}
     A & 0\\
+    C & B
+ \end{vmatrix}=
+ \begin{vmatrix}
+    A & c\\
     0 & B
- \end{vmatrix}$$
+ \end{vmatrix}=\lvert A \rvert \lvert B \rvert$$
 
+$$\begin{vmatrix}
+    0 & A\\
+    B & 0
+ \end{vmatrix}=
+ \begin{vmatrix}
+    0 & A\\
+    B & C
+ \end{vmatrix}=
+ \begin{vmatrix}
+    C & A\\
+    B & 0
+ \end{vmatrix}=(-1) ^{mn} \lvert A \rvert \lvert B \rvert$$
+
+ （四）范德蒙德行列式
+
+ $$\begin{vmatrix}
+  1 & 1 & \cdots & 1 \\
+  x_1 & x_2 & \cdots & x_n\\
+  x_1^2 & x_2^2 & \cdots & x_n^2\\
+  \cdots & \cdots & \cdots & \cdots\\
+  x_1^{n-1} & x_2^{n-1} & \cdots & x_n^{n-1}\\
+ \end{vmatrix}=\prod _{1 \leq i<j \leq n}(x_j-x_i)$$
+
+ ## 行列式习题（仅列出技巧型）
+
+ （一）**标准爪型**：
+   
+   解题方法：通过倍数加减变换消边上的爪子
+
+   [例题](LApic/l1.1.jpg)
+
+ （二）**行（列）和相等**
+
+   解题方法：行和或列和相等则相加提公因式，再去化简
+
+   [例题](LApic/l2.2.jpg)
+
+ （三）**异爪型**
+
+   解题方法：1.阶数不高的直接展开 2.用递推法
+
+   [例题](LApic/l3.3.jpg)
+
+ （四）**抽象型行列式的计算**
+   解题方法：要熟练地把线性组合表示成矩阵乘积的形式
+
+   [例题](LApic/l4.4.jpg)

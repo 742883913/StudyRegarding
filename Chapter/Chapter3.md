@@ -225,12 +225,12 @@ $$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
 
 - 型三：零点
 
-（一）零点定理
+  （一）零点定理
 
-（二）罗尔定理：
+  （二）罗尔定理：
 
-$F(a)=F(b) \Rightarrow \exists c \in (a,b),F'(c)=f(c)=0$
+  $F(a)=F(b) \Rightarrow \exists c \in (a,b),F'(c)=f(c)=0$
 
-[例题](../pic/x.jpg)
+  [例题](../pic/x.jpg)
 
-（三）单调性
+  （三）单调性

@@ -1,10 +1,10 @@
 # Learning Content
 
-## 项目介绍：该项目内容是整理的平时的学习笔记与资料
+## 项目作者：王宋晖
 
-## 项目作者：王姆斯（名言：华科有手就行）
+### 项目介绍：分享考研复习整理的内容以及平时学习的内容，一起进步（北理冲冲冲）
 
-### 高等数学
+#### 高等数学
 
 [第一章：连续与极限](Chapter/Chapter1.md)
 
@@ -30,17 +30,17 @@
 
 [高等数学做题技巧](MathSkills.md)
 
-### 线性代数
+#### 线性代数
 
 [整合版](LinearAlgebra.md)
 
-### 英语
+#### 英语
 
 [单词](EnglishChapter/word.md)
 
 [短语](EnglishChapter/sentences.md)
 
-### 法语
+#### 法语
 
 [发音](Franch/pronounce.md)
 
