@@ -10,7 +10,7 @@
   </script>
 </head>
 
-**目录：**
+## 目录：
 
 [第一章：行列式](#行列式)
 
@@ -86,7 +86,7 @@ $$\begin{vmatrix}
   x_1^{n-1} & x_2^{n-1} & \cdots & x_n^{n-1}\\
  \end{vmatrix}=\prod _{1 \leq i<j \leq n}(x_j-x_i)$$
 
- ## 行列式习题（仅列出技巧型）
+ ## 行列式习题,仅技巧型
 
  （一）**标准爪型**：
    
@@ -111,6 +111,7 @@ $$\begin{vmatrix}
 
    [例题](LApic/l4.4.jpg)
 
+[返回目录](#目录)
 
 # 矩阵
 
@@ -179,7 +180,7 @@ $$\begin{vmatrix}
 
    $$||\alpha||=\sqrt{\sum _{i=1}^na_i^2}$$
 
-   > $||\alpha||=1$ 时称为单位向量
+   > $\lvert \lvert \alpha\rvert \rvert=1$ 时称为单位向量
 
   - 标准正交向量组
    > 向量组满足以下，则称为标准正交向量组
@@ -215,3 +216,5 @@ $$\begin{vmatrix}
    $$\lvert AB \rvert=\lvert A \rvert \lvert B \rvert$$
 
    正交矩阵：$AA^T=E,A$ 的行（列）向量组为标准正交向量组
+
+   [返回目录](#目录)
