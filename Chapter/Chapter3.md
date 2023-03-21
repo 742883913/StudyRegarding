@@ -51,17 +51,17 @@
 
 ### 洛必达法则
 
-  $$\begin{cases}
-   f(x),g(x)在\ x=a\ 的去心邻域内可导且g'(x)\neq 0\\
-   \lim_{x \to a}f(x)=0,\lim_{x \to a}g(x)=0\\
-   \lim_{x \to a}\frac{f'(x)}{g'(x)}=A
-  \end{cases}$$
+$$\begin{cases}
+  f(x),g(x)在\ x=a\ 的去心邻域内可导且g'(x)\neq 0\\
+  \lim_{x \to a}f(x)=0,\lim_{x \to a}g(x)=0\\
+  \lim_{x \to a}\frac{f'(x)}{g'(x)}=A
+\end{cases}$$
 
-  则
+则
 
-  $$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
+$$\lim_{x \to a}\frac{f(x)}{g(x)}=A$$
 
-  **注意**：洛必达后无极限，不代表原函数 $\lim_{x \to a}\frac{f(x)}{g(x)}$ 无极限。
+**注意**：洛必达后无极限，不代表原函数 $\lim_{x \to a}\frac{f(x)}{g(x)}$ 无极限。
 
 ### 泰勒公式
 - 定义自己看

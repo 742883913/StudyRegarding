@@ -20,12 +20,12 @@
 ### 无穷小部分
 - **定义**：设$\alpha,\beta$都趋于零，若
 
-$$\begin{cases}
-  \lim \frac{\beta}{\alpha}=0,\beta=o(\alpha)\\
-  \lim \frac{\beta}{\alpha}=k,\beta=O(\alpha)
-\end{cases}$$
+  $$\begin{cases}
+    \lim \frac{\beta}{\alpha}=0,\beta=o(\alpha)\\
+    \lim \frac{\beta}{\alpha}=k,\beta=O(\alpha)
+  \end{cases}$$
 
-$\beta=o(\alpha),\beta为\alpha高阶无穷小$；$\beta=O(\alpha)\beta为\alpha同阶无穷小$
+  $\beta=o(\alpha)$,$\beta$ 为 $\alpha$ 高阶无穷小；$\beta=O(\alpha)$ $\beta$ 为 $\alpha$ 同阶无穷小
 
 - **性质**（仅列举特殊的）：
   

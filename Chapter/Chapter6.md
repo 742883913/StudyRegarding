@@ -77,10 +77,10 @@
 
   $$\frac{\partial z}{\partial l}|_(x_0,y_0)=\lim_{\rho \to 0}\frac{\Delta z}{\rho}$$
 
-  $$\frac{\partial z}{\partial l}|_(x_0,y_0)=\frac{\partial z}{\partial x}|_(x_0,y_0)*cos\alpha+\frac{\partial z}{\partial y}|_(x_0,y_0)*cos\beta$$
+  $$\frac{\partial z}{\partial l}\rvert_{(x_0,y_0)}=\frac{\partial z}{\partial x}|_(x_0,y_0)*cos\alpha+\frac{\partial z}{\partial y}|_(x_0,y_0)*cos\beta$$
 
 - 梯度(该点处方向导数最大值)
   
   $u=f(x,y,z)$
 
-  $$grad u|_{M_0}=(\frac{\partial u}{\partial x},\frac{\partial u}{\partial y},\frac{\partial u}{\partial z})_{M_0}$$
+  $$\nabla u\rvert _{M_0}=(\frac{\partial u}{\partial x},\frac{\partial u}{\partial y},\frac{\partial u}{\partial z})_{M_0}$$

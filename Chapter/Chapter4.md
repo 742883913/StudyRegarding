@@ -101,10 +101,10 @@ $\sqrt{x^2-a^2}\rightarrow 设x=asect$
 $uv=\int u dv+\int v du \rightarrow \int u dv=uv-\int v du$
 
 **适用类型**
-1. $\int 幂函数*指数dx$
-2. $\int 幂函数*对数dx$
-3. $\int 幂函数*三角dx$
-4. $\int 幂函数*反三角dx$
+1. $\int 幂函数\cdot 指数dx$
+2. $\int 幂函数\cdot 对数dx$
+3. $\int 幂函数\cdot 三角dx$
+4. $\int 幂函数\cdot 反三角dx$
 5. 特殊：设原函数为$t$型,会发现积着又回到原函数
 
   $$\begin{cases}
