@@ -70,9 +70,11 @@
   $\int^b_af(x)dx=F(b)-F(a)$
 
 ## §4 定积分特殊性质
-- $f(x)$ 在 $[0,1]$ 上可积
 
-  $$\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac {i-1} n)=\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac i n)=\int^1_0f(x)dx$$
+- 性质一：
+  $f(x)$ 在 $[0,1]$ 上可积
+
+  $$\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac {i-1} n)=\lim_{n \to \infty}\frac 1 n \displaystyle \sum^n_{i=1}f(\frac i n)=\int^1_0f(x)dx$$ 
 
   注意$x=\frac i n$,这个只能在分子分母皆齐，分母比分子高一次的情况下使用
 
@@ -81,17 +83,19 @@
   $$\lim_{n \to \infty}\frac{1^2+2^2+...+n^2}{n^3}$$
 
   [答案](../pic/Chapter5.2.jpg)
-  
-- **$\int^a_{-a}f(x)dx=\int^a_0f(x)+f(-x)dx$**
+- 性质二：
+  $$\int^a_{-a}f(x)dx=\int^a_0f(x)+f(-x)dx$$
+- 性质三：
+  $$\int^{\frac \pi 2}_0f(sinx)dx=\int^{\frac \pi 2}_0f(cosx)dx$$
 
-- **$\int^{\frac \pi 2}_0f(sinx)dx=\int^{\frac \pi 2}_0f(cosx)dx$**
-  
   **例题**
-  $\int^1_0\frac 1 {x+\sqrt{1-x^2}}dx$
+
+  $$\int^1_0\frac 1 {x+\sqrt{1-x^2}}dx$$
 
   [答案](../pic/Chapter5.6.jpg)
 
-- $I_n=\int^{\frac \pi 2}_0sin^nxdx=\int^{\frac \pi 2}_0cos^nxdx$
+- 性质四：
+  $$I_n=\int^{\frac \pi 2}_0sin^nxdx=\int^{\frac \pi 2}_0cos^nxdx$$
 
   $$\begin{cases}
     I_n=\frac{n-1}nI_{n-2}\\
@@ -99,17 +103,23 @@
     I_1=1
   \end{cases}$$
 
-  例如：$I_4=\frac{3}{4} * \frac{1}{2} * \frac{\pi}{2}$
+  > 例如：$I_4=\frac{3}{4} * \frac{1}{2} * \frac{\pi}{2}$
 
-  **例题**：$\int^{\frac{\pi}2}_{-\frac{\pi}2}(\frac{sin^4x}{1+e^x})dx$
+  **例题**：
+  $$\int^{\frac{\pi}2}_{-\frac{\pi}2}(\frac{sin^4x}{1+e^x})dx$$
 
   [答案](../pic/Chapter5.7.jpg)
 
-- $\int^{\pi}_0f(sinx)dx=2\int^{\frac{\pi}2}_0f(sinx)dx$
+- 性质五：
+  
+  $$\int^{\pi}_0f(sinx)dx=2\int^{\frac{\pi}2}_0f(sinx)dx$$
 
-- $\int^{\pi}_0xf(sinx)dx=\frac{\pi}2\int^{\pi}_0f(sinx)dx$
-
-- $f(x)$是以T为周期的可积函数，则：
+- 性质六：
+  
+  $$\int^{\pi}_0xf(sinx)dx=\frac{\pi}2\int^{\pi}_0f(sinx)dx$$
+  
+- 性质七：
+  $f(x)$是以 $T$ 为周期的可积函数，则：
 
   $$\begin{cases}
     \int^{a+T}_af(x)dx=\int^{T}_0f(x)dx\\

@@ -10,7 +10,7 @@
 
 [第二章：导数和微分](Chapter/Chapter2.md)
 
-[第三章：一元函数微分学应用](Chapter/AdvancedMathematics.md)
+[第三章：一元函数微分学应用](Chapter/Chapter3.md)
 
 [第四章：不定积分](Chapter/Chapter4.md)
 

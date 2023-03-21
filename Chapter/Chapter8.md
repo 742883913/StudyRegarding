@@ -16,7 +16,7 @@
 
 ### 性质：
 
-1. $\int \int _D[f(x,y) \pm g(x,y)]dxdy=\int \int _Df(x,y)dxdy+\int \int _Dg(x,y)dxdy$
+1. $\iint _D[f(x,y) \pm g(x,y)]dxdy=\int \int _Df(x,y)dxdy+\int \int _Dg(x,y)dxdy$
 
 2. $\int \int _Dkf(x,y)dxdy=k\int \int _Df(x,y)dxdy$
 
@@ -77,7 +77,7 @@
 ### 计算方法：
 1. 铅直投影法：
   
-  $$\int \int \int _{\Omega}f(x,y,z)dv=\int \int _{D_{xy}}dxdy\int^{\phi_2(x,y)}_{\phi_1(x,y)}f(x,y,z)dz$$
+  $$\iiint _{\Omega}f(x,y,z)dv=\int \int _{D_{xy}}dxdy\int^{\phi_2(x,y)}_{\phi_1(x,y)}f(x,y,z)dz$$
 
 2. 切片法：
 

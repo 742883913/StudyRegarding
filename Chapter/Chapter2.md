@@ -33,19 +33,22 @@ $$f'(a)=\lim_{x \to a}\frac{f(x)-f(a)}{x-a}=\lim_{\Delta x \to 0}\frac{\Delta y}
 ## §3 基本公式及题目类型
 
 ### 常见基本公式（仅列举易混淆的）
-- $(a^x)'=a^xlna$
-- $(log_ax)'=\frac{1}{xlna}$
-- $(arcsinx)'=\frac{1}{\sqrt{1-x^2}}$
-- $(arccosx)'=-\frac{1}{\sqrt{1-x^2}}$
-- $(arctanx)'=\frac{1}{1+x^2}$
-- $(arccotx)'=-\frac{1}{1+x^2}$
+
+$$\begin{split}
+  (a^x)'&=a^xlna\\
+  (\log_ax)'&=\frac{1}{xlna}\\
+  (\arcsin x)'&=\frac{1}{\sqrt{1-x^2}}\\
+  (\arccos x)'&=-\frac{1}{\sqrt{1-x^2}}\\
+  (\arctan x)'&=\frac{1}{1+x^2}\\
+  ({\rm arccot}\ x)'&=-\frac{1}{1+x^2}\\
+\end{split}$$
 
 ### 题目类型
 - 定义研究导数型
 
   灵活运用
 
-$$f'(x)=\lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}$$
+  $$f'(x)=\lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}$$
 
 - 显函数求导（考验基本功）
 
