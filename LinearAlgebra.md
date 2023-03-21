@@ -14,6 +14,7 @@
 
 [第一章：行列式](#行列式)
 
+[第二章：矩阵](#矩阵)
 
 # 行列式
 
@@ -109,3 +110,49 @@ $$\begin{vmatrix}
    解题方法：要熟练地把线性组合表示成矩阵乘积的形式
 
    [例题](LApic/l4.4.jpg)
+
+
+# 矩阵
+
+## 矩阵的基本运算
+
+ （一）加法：两个同型矩阵对应元素相加
+
+ （二）数乘矩阵
+
+   $$k\begin{pmatrix}
+    a_{11} & a_{12}\\
+    a_{21} & a_{22}
+   \end{pmatrix}=
+   \begin{pmatrix}
+    ka_{11} & ka_{12}\\
+    ka_{21} & ka_{22}
+   \end{pmatrix}$$
+
+  （三）运算律
+
+   $$\begin{split}
+      A+B&=B+A \\
+      (A+B)+C&=A+(B+C)\\
+      k(A+B)&=kA+kB
+   \end{split}$$
+    
+   >$$\lvert kA \rvert =k^n \lvert A \rvert$$
+
+  （四）矩阵的乘法
+  
+   > 设 $A_{m \times s},B_{s \times n}$ ，即 $A$ 的列数必须等于 $B$ 的行数， $AB$ 为 $m\times n$ 阶矩阵
+
+   $$\begin{split}
+    (AB)C &=A(BC) \qquad(1)\\
+    A(B+C)&=AB+BC \qquad(2)\\
+    (kA)B& =A(kB) \qquad(3)
+   \end{split}$$
+   
+   > $AB \neq BA;AB=0$ 得不出 $A or B=0;AB=AC$ 不得 $B=C$
+
+  （五）转置矩阵
+
+   > 转置矩阵为将矩阵的行列互换得到的矩阵
+
+   \
