@@ -137,7 +137,9 @@ $$\begin{vmatrix}
       k(A+B)&=kA+kB
    \end{split}$$
     
-   >$$\lvert kA \rvert =k^n \lvert A \rvert$$
+   注：
+   
+   $$\lvert kA \rvert =k^n \lvert A \rvert$$
 
   （四）矩阵的乘法
   
@@ -149,10 +151,67 @@ $$\begin{vmatrix}
     (kA)B& =A(kB) \qquad(3)
    \end{split}$$
    
-   > $AB \neq BA;AB=0$ 得不出 $A or B=0;AB=AC$ 不得 $B=C$
+   注：$AB \neq BA;AB=0$ 得不出 $A or B=0;AB=AC$ 不得$B=C$
 
   （五）转置矩阵
 
    > 转置矩阵为将矩阵的行列互换得到的矩阵
 
-   \
+   $$\begin{split}
+    (A^T)^T&=A \qquad(1)\\
+    (kA)^T&=kA^T \qquad(2)\\
+    (A+B)^T&=A^T+B^T \qquad(3)\\
+    (AB)^T&=B^TA^T \qquad(4)\\
+    m=n \text{时} \lvert &A^T \rvert =\lvert A \rvert \qquad(5)
+   \end{split}$$
+
+ （六）向量的内积与正交
+  
+  - 内积
+   > 设 $\alpha=[a_1,a_2,\cdots,a_n]^T,\beta=[b_1,b_2,\cdots,b_n]^T$
+
+   $$(\alpha,\beta)=\alpha^T \beta= \sum _{i=1}^n a_ib_i$$
+
+  - 正交
+   > 当$(\alpha,\beta)=\alpha^T \beta = 0$ 时称 $\alpha,\beta$ 两向量正交
+
+  - 向量的模
+
+   $$||\alpha||=\sqrt{\sum _{i=1}^na_i^2}$$
+
+   > $||\alpha||=1$ 时称为单位向量
+
+  - 标准正交向量组
+   > 向量组满足以下，则称为标准正交向量组
+
+   $$a_i^Ta_j=\begin{cases}
+    0,i \neq j\\
+    1, i=j
+   \end{cases}$$
+
+ （七）施密特正交化（正交规范化）过程
+   > 线性无关向量组 $\alpha_1,\alpha_2$ 正交化公式为：
+
+   $$\begin{split}
+    &\beta _1= \alpha _1 \qquad (1)\\
+    &\beta _2 = \alpha _2 - \frac{(\alpha_2,\beta_1)}{(\beta_1,\beta_2)}\beta 1 \qquad (2)\\
+    &\gamma_1=\frac{\beta _1}{||\beta _1||},\gamma_2=\frac{\beta _2}{||\beta _2||} \qquad (3)
+   \end{split}$$
+
+   > $\gamma_1,\gamma_2$ 为标准正交向量组
+
+ （八）矩阵的幂
+   
+   > 矩阵的方不能靠经验公式
+
+   $$\begin{split}
+    (A+B)^2&=(A+B)(A+B)\\
+    (A+B)(A-B)&=A^2+BA-AB-B^2\\
+    f(x)=a_0+a_1x+\cdots +a_mx^m,&f(A)=a_0E+a_1A+\cdots+a_mA^m
+   \end{split}$$
+
+ （九）方阵乘积的行列式
+
+   $$\lvert AB \rvert=\lvert A \rvert \lvert B \rvert$$
+
+   正交矩阵：$AA^T=E,A$ 的行（列）向量组为标准正交向量组
