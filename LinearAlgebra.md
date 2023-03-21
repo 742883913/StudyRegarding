@@ -45,9 +45,11 @@ $$\|A\|=\sum _{i=1}^{n}a_{ij}A_{ij}$$
  （二）：副对角线行列式=$(-1)^{\frac{n(n-1)}{2}}a_{1n}a_{2,n-1}····$
  （三）：拉普拉斯展开式：$A$为$m$阶矩阵，$B$为$n$阶矩阵
 
- $$\left|
- \begin{array}{cccc}
+ $$\begin{vmatrix}
     A & 0\\
     0 & B
- \end{array}
- \right|$$
+ \end{vmatrix}=
+ \begin{vmatrix}
+    A & 0\\
+    0 & B
+ \end{vmatrix}$$
