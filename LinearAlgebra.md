@@ -86,6 +86,7 @@ $$\begin{vmatrix}
   x_1^{n-1} & x_2^{n-1} & \cdots & x_n^{n-1}\\
  \end{vmatrix}=\prod _{1 \leq i<j \leq n}(x_j-x_i)$$
 
+ 
  ## 行列式习题,仅技巧型
 
  （一）**标准爪型**：
