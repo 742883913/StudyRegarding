@@ -99,3 +99,6 @@ $$I=\int \int _{\sum}f(x,y,z)ds=\int \int _{D_{xy}}f[x,y,\phi(x,y)]\sqrt{1+(\fra
  
  
   ![](../pic/11.1.png)
+
+  <div align="center"><img src="../pic/11.1.png" width="600"></div>
+  <div align="center">Pic1: 图片说明</div>
