@@ -40,7 +40,7 @@
    
    - $\vec{a}·\vec{a}=\|\vec{a}^2\|$
    
-   - $\vec{a}·\vec{b}=0\rightarrow$两向量平行
+   - $\vec{a}·\vec{b}=0\rightarrow$两向量垂直
    
    - $\vec{a}\times \vec{b}=-\vec{b}\times \vec{a}$
    
