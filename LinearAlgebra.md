@@ -19,6 +19,10 @@
   - [行列式习题,仅技巧型](#行列式习题仅技巧型)
 - [矩阵](#矩阵)
   - [矩阵的基本运算](#矩阵的基本运算)
+  - [矩阵的逆](#矩阵的逆)
+  - [伴随矩阵](#伴随矩阵)
+  - [转置，逆，伴随公式对比](#转置逆伴随公式对比)
+
 
 
 # 行列式
@@ -166,11 +170,11 @@ $$\begin{vmatrix}
    > 转置矩阵为将矩阵的行列互换得到的矩阵
 
    $$\begin{split}
-    (A^T)^T&=A \qquad(1)\\
-    (kA)^T&=kA^T \qquad(2)\\
-    (A+B)^T&=A^T+B^T \qquad(3)\\
-    (AB)^T&=B^TA^T \qquad(4)\\
-    m=n \text{时} \lvert &A^T \rvert =\lvert A \rvert \qquad(5)
+    &(A^T)^T=A \qquad(1)\\
+    &(kA)^T=kA^T \qquad(2)\\
+    &(A+B)^T=A^T+B^T \qquad(3)\\
+    &(AB)^T=B^TA^T \qquad(4)\\
+    &m=n \text{时} \lvert A^T \rvert =\lvert A \rvert \qquad(5)
    \end{split}$$
 
  （六）向量的内积与正交
@@ -222,6 +226,105 @@ $$\begin{vmatrix}
 
    $$\lvert AB \rvert=\lvert A \rvert \lvert B \rvert$$
 
-   正交矩阵：$AA^T=E,A$ 的行（列）向量组为标准正交向量组
+   $$\begin{pmatrix}
+    A & O\\
+    0 & B
+   \end{pmatrix}^n=
+   \begin{pmatrix}
+    A^n & O\\
+    0 & B^n
+   \end{pmatrix}
+   $$
 
-   [返回目录](#目录)
+   **正交矩阵**：$AA^T=E,A$ 的行（列）向量组为标准正交向量组
+
+
+## 矩阵的逆
+
+（一）定义
+
+ 1. $A$ 和 $B$ 是 $n$ 阶方阵，若 $AB=BA=E$ 则称 $A$ 是可逆矩阵，且逆唯一为 $B$ 记作 $A^{-1}$
+
+ 2. $A$ 可逆的充要条件是 $\lvert A \rvert \neq 0$ ：
+
+ $$A^{-1}=\frac{1}{\lvert A \rvert}A^*$$
+
+（二）性质与重要公式
+
+$$\begin{split}
+  &(A^{-1})^{-1}=A \qquad (1)\\
+  &(kA)^{-1}=\frac{1}{k}A^{-1} \qquad(2)\\
+  &(AB)^{-1}=B^{-1}A^{-1} \qquad(3)\\
+  &(A^T)^{-1}=(A^{-1})^T \qquad(4)\\
+  &\lvert A^{-1} \rvert=\lvert A \rvert^{-1} \qquad(5)
+\end{split}$$
+   
+（三）定义法求逆矩阵
+
+ 1. 直接求出逆矩阵
+ 2. 将矩阵分为几个可逆矩阵的乘积，因为两个可逆矩阵的乘积仍是可逆矩阵，$A=BC$ 则
+
+ $$A^{-1}=(BC)^{-1}=C^{-1}B^{-1}$$
+
+ 3. 一些简单分块矩阵的逆，有：
+
+ $$\begin{pmatrix}
+  A & O\\
+  O & B
+ \end{pmatrix}^{-1}=
+ \begin{pmatrix}
+  A^{-1} & O\\
+  O & B^{-1}
+ \end{pmatrix}$$
+
+ $$\begin{pmatrix}
+  O & A\\
+  B & O
+ \end{pmatrix}^{-1}=
+ \begin{pmatrix}
+  O & B^{-1}\\
+  A^{-1} & O
+ \end{pmatrix}
+ $$
+   
+## 伴随矩阵
+
+（一）定义
+
+ 将 $\lvert A \rvert$ 的 $n^2$ 个元素的代数余子式按以下形式排列的矩阵称为 $A$ 的伴随矩阵
+
+ $$A^*=\begin{pmatrix}
+  A_{11} & A_{21} & \cdots & A_{n1}\\
+  A_{12} & A_{22} & \cdots & A_{n2}\\
+  \cdots & \cdots & \cdots & \cdots & \\
+  A_{1n} & A_{2n} & \cdots & A_{nn}
+ \end{pmatrix}$$
+   
+ $$AA^*=A^*A=\lvert A \rvert E$$
+
+（二）性质与公式
+
+$$\begin{split}
+  \lvert A^* \rvert =\lvert A \rvert^{n-1}\\
+  (A^T)^*=(A^*)^T\\
+  (A^{-1})^*=(A^*)^{-1}\\
+  (AB)^*=B^*A^*\\
+  (A^*)^*=\lvert A \rvert^{n-2}A\\
+  (kA)^*=k^{n-1}A^*
+\end{split}$$
+
+## 转置，逆，伴随公式对比
+
+$$\begin{split}
+  &\lvert kA \rvert=k^n\lvert A \rvert\\
+  &(kA)^T=kA^T\\
+  &(kA)^{-1}=\frac{1}{k}A^{-1}\\
+  &(kA)^*=k^{n-1}A^*
+\end{split}$$
+
+$$\begin{split}
+  &(AB)^T=B^TA^T\\
+  &(AB)^{-1}=B^{-1}A^{-1}
+\end{split}$$  
+   
+[返回目录](#目录)
