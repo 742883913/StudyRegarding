@@ -85,8 +85,11 @@
 
   [答案](../pic/Chapter5.2.jpg)
 - 性质二：
+  
   $$\int^a_{-a}f(x)dx=\int^a_0f(x)+f(-x)dx$$
+
 - 性质三：
+  
   $$\int^{\frac \pi 2}_0f(sinx)dx=\int^{\frac \pi 2}_0f(cosx)dx$$
 
   **例题**
@@ -96,6 +99,7 @@
   [答案](../pic/Chapter5.6.jpg)
 
 - 性质四：
+  
   $$I_n=\int^{\frac \pi 2}_0sin^nxdx=\int^{\frac \pi 2}_0cos^nxdx$$
 
   $$\begin{cases}
@@ -107,6 +111,7 @@
   > 例如：$I_4=\frac{3}{4} * \frac{1}{2} * \frac{\pi}{2}$
 
   **例题**：
+  
   $$\int^{\frac{\pi}2}_{-\frac{\pi}2}(\frac{sin^4x}{1+e^x})dx$$
 
   [答案](../pic/Chapter5.7.jpg)
