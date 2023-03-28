@@ -195,7 +195,7 @@ $$\begin{vmatrix}
 
    $$\begin{split}
     &\beta _1= \alpha _1 \qquad (1)\\
-    &\beta _2 = \alpha _2 - \frac{(\alpha_2,\beta_1)}{(\beta_1,\beta_2)}\beta 1 \qquad (2)\\
+    &\beta _2 = \alpha _2 - \frac{(\alpha_2,\beta_1)}{(\beta_1,\beta_1)}\beta 1 \qquad (2)\\
     &\gamma_1=\frac{\beta _1}{||\beta _1||},\gamma_2=\frac{\beta _2}{||\beta _2||} \qquad (3)
    \end{split}$$
 
