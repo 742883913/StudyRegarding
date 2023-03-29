@@ -251,11 +251,9 @@ $$\begin{split}
 （三）定义法求逆矩阵
 
  1. 直接求出逆矩阵
- 2. 将矩阵分为几个可逆矩阵的乘积，因为两个可逆矩阵的乘积仍是可逆矩阵，$A=BC$ 则
+ 
 
- $$A^{-1}=(BC)^{-1}=C^{-1}B^{-1}$$
-
- 3. 一些简单分块矩阵的逆，有：
+ 3. 一些简单分块矩阵的逆，有（左乘同行，右乘同列，添负号）：
 
  $$\begin{pmatrix}
   A & O\\
@@ -275,7 +273,64 @@ $$\begin{split}
   A^{-1} & O
  \end{pmatrix}
  $$
+
+ $$\begin{pmatrix}
+  A & O\\
+  C & B
+ \end{pmatrix}^{-1}=
+ \begin{pmatrix}
+  A^{-1} & O\\
+  -B^{-1}CA^{-1} & B^{-1}
+ \end{pmatrix}$$
    
+ $$\begin{pmatrix}
+  A & C\\
+  O & B
+ \end{pmatrix}^{-1}=
+ \begin{pmatrix}
+  A^{-1} & -A^{-1}CB^{-1}\\
+  O & B^{-1}
+ \end{pmatrix}$$
+   
+ $$\begin{pmatrix}
+  O & A\\
+  B & C
+ \end{pmatrix}^{-1}=
+ \begin{pmatrix}
+  -B^{-1}CA^{-1} & B^{-1}\\
+  A^{-1} & O
+ \end{pmatrix}$$
+   
+   $$\begin{pmatrix}
+  C & A\\
+  B & O
+ \end{pmatrix}^{-1}=
+ \begin{pmatrix}
+  O & B^{-1}\\
+  A^{-1} & -A^{-1}CB^{-1}
+ \end{pmatrix}$$
+（四）求逆矩阵的方法
+
+ 1. 如果$\lvert A \rvert \neq 0,A^-=\frac{1}{\lvert A \rvert}A^*$
+
+ 2. 初等变换法：
+
+ $$\begin{pmatrix}
+  A & \lvert & E
+ \end{pmatrix}\underrightarrow{\text{行变换}}
+ \begin{pmatrix}
+  E & \lvert & A^-
+ \end{pmatrix}$$
+
+ 3. 对于抽象矩阵：
+   a. 定义法求逆矩阵
+   b. 将矩阵分为几个可逆矩阵的乘积，因为两个可逆矩阵的乘积仍是可逆矩阵，$A=BC$ 则
+
+    $$A^{-1}=(BC)^{-1}=C^{-1}B^{-1}$$
+
+
+
+
 ## 伴随矩阵
 
 （一）定义
@@ -315,6 +370,8 @@ $$\begin{split}
   &(AB)^T=B^TA^T\\
   &(AB)^{-1}=B^{-1}A^{-1}
 \end{split}$$  
+
+
 
 ## 初等变换与初等矩阵
 
