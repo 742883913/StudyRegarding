@@ -435,3 +435,37 @@ $$r(A^*)=\begin{cases}
 
    
 [返回目录](#目录)
+
+# 向量组
+
+## 相关概念
+
+（一）线性组合:形如
+
+$$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n$$
+
+（二）线性表出：若$\vec{\beta}$能表示成向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$的线性组合，则称$\vec{\beta}$能被该向量组线性表出
+
+$$\vec{\beta}=k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n$$
+
+（三）线性相关：对于向量组若存在一组不全为零的数使
+
+$$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$$
+
+则称向量组线性相关
+
+（四）线性无关：对于向量组若不存在一组不全为零的数使
+
+$$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$$
+
+则称向量组线性无关
+
+*注：一个向量作为向量组的时候，$\alpha=0$称作线性相关，反之，线性无关。
+
+## 判断线性相关的七大定理
+
+**定理一**： 线性相关的充要条件是向量组中至少有一个向量可由其余的向量线性表出，及至少有个向量多余
+
+**定理二**：若向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$线性无关，$\beta,\alpha_1,\alpha_2,\cdots,\alpha_n$线性相关，则$\beta$可由向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$线性表出
+
+**定理三**：
