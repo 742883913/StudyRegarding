@@ -309,6 +309,7 @@ $$\begin{split}
   O & B^{-1}\\
   A^{-1} & -A^{-1}CB^{-1}
  \end{pmatrix}$$
+
 （四）求逆矩阵的方法
 
  1. 如果$\lvert A \rvert \neq 0,A^-=\frac{1}{\lvert A \rvert}A^*$
@@ -401,7 +402,7 @@ $$\begin{split}
 
 （一）等价矩阵定义
 
-若存在$PAQ=B$,则称$A,B$矩阵等价
+若存在$PAQ=B$,则称$A,B$矩阵等价，充要条件：两矩阵同型且 $r(A)=r(B)$
 
 （二）等价标准型
 
@@ -468,4 +469,47 @@ $$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$$
 
 **定理二**：若向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$线性无关，$\beta,\alpha_1,\alpha_2,\cdots,\alpha_n$线性相关，则$\beta$可由向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$线性表出
 
-**定理三**：
+**定理三**：如果向量组$\beta _1,\beta _2,\cdots,\beta _t$ 可由向量组 $\alpha_1,\alpha_2,\cdots,\alpha_s$ 线性表示，且 $t>s$ 则 $\beta _1,\beta _2,\cdots,\beta _t$ 线性相关。（少表示多，多的相关）
+
+等价命题：如果向量组$\beta _1,\beta _2,\cdots,\beta _t$可由向量组 $\alpha_1,\alpha_2,\cdots,\alpha_s$ 线性表示，且$\beta _1,\beta _2,\cdots,\beta _t$线性无关，则$t \leq s$
+
+**定理四**：向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$线性相关的充要条件是齐次线性方程组 $Ax=0$ 有非零解
+
+等价命题：向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$线性无关的充要条件是齐次线性方程组 $Ax=0$ 只有零解
+
+性质：
+
+（一）$m(m>n)$个$n$维向量都是线性相关的（因为肯定有非零解）
+
+（二）$n$个$n$维列向量$\alpha_1,\alpha_2,\cdots,\alpha_n$线性相关$\leftrightarrow \lvert A \rvert=0 \leftrightarrow Ax=0$有非零解
+
+（三）$m<n$时用定理六，定理七
+
+**定理五**：向量$\beta$可由向量组A:$\alpha_1,\alpha_2,\cdots,\alpha_n$线性表出$\leftrightarrow Ax=\beta $ 有解 $\leftrightarrow r(A)=r(A,\beta)$;反之若不能线性表出，$\leftrightarrow Ax=\beta $ 无解 $\leftrightarrow r(A)+1=r(A,\beta)$
+
+**定理六**：若向量组中有一部分向量线性相关，则整个向量组线性相关；总之，部分向量相关，则整体也线性相关；整体线性无关，则任意部分都线性无关。
+
+**定理七**:原来的向量组无关，则延长每个向量后依旧无关；原来的向量组相关，则缩短每个向量依旧相关。
+
+## 极大线性无关组、等价向量组、向量组的秩
+（一）极大线性无关组
+
+在向量组$\alpha_1,\alpha_2,\cdots,\alpha_n$中，若存在部分$\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_n}$满足：
+
+  1. $\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_n}$ 线性无关
+  2. 向量组中任意向量可由$\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_n}$表出
+
+则称$\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_n}$为向量组的极大线性无关组，一般极大线性无关组不唯一
+
+（二）等价向量组
+
+设两个向量组：$(A)\alpha_1,\alpha_2,\cdots,\alpha_n,(B)\beta _1,\beta _2,\cdots,\beta _m$，若$(A)$中每个向量可由$(B)$线性表出，则称$(A)$可由向量组$(B)$线性表出；若俩向量组可互相线性表出，则称两向量组等价记作$A \simeq B$
+
+**向量组和它的极大线性无关组是等价向量组**
+
+向量组等价：$r(A)=r(B)=r(A \lvert B)$
+
+（三）向量组的秩（向量所张成的空间维度）
+
+向量组中的极大无关组中向量的个数称为向量组的秩
+
