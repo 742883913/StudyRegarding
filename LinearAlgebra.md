@@ -513,3 +513,40 @@ $$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$$
 
 向量组中的极大无关组中向量的个数称为向量组的秩
 
+（四）有关秩的重要定理
+
+1. 三秩相等
+
+  矩阵的秩=矩阵行向量组的秩=矩阵列向量组的秩
+
+2. 若$A \underrightarrow{\text{初等行变换}} B$，则
+   1. $A$ 的行向量组和 $B$ 的行向量组等价
+   2. $A,B$的任何相应的部分列向量组具有相同的线性相关性
+
+3. 设向量组$A,B$其中$A$中任意向量可由$B$线性表出，则
+
+$$r(A) \leq r(B)$$
+
+## 向量空间
+
+（一）概念
+
+若$\xi _1,\xi _2,\cdots,\xi _n$是$n$维向量空间$R^n$中的线性无关的有序向量组，则$R^n$任意向量$\alpha$可由$\xi _1,\xi _2,\cdots,\xi _n$线性表出，记表出式为：
+
+$$\alpha =\alpha _1 \xi _1+\alpha _2\xi _2+\cdots+\alpha _n\xi _n$$
+
+则有序向量组$\xi _1,\xi _2,\cdots,\xi _n$是$R^n$的一个基，基向量的个数称为向量组的维数；$[\alpha _1,\alpha _2,\cdots,\alpha _n]$ 称为$\alpha$ 在基下的坐标，或称为坐标行向量
+
+（二）基变换、坐标变换
+
+1. 若 $\xi _1,\xi _2,\cdots,\xi _n$ 和$\eta _1,\eta _2,\cdots,\eta _n$ 是$R^n$的两个基，则：
+
+  $$[\xi _1,\xi _2,\cdots,\xi _n]=[\eta _1,\eta _2,\cdots,\eta _n]C$$
+
+  称为基变换，$C$称为$\eta _1,\eta _2,\cdots,\eta _n$到$\xi _1,\xi _2,\cdots,\xi _n$的过渡矩阵
+
+2. 设$\alpha$在$\xi _1,\xi _2,\cdots,\xi _n$，$\eta _1,\eta _2,\cdots,\eta _n$两个基下的坐标为$x,y$，则有
+
+ $$\alpha=[\xi _1,\xi _2,\cdots,\xi _n]x=[\eta _1,\eta _2,\cdots,\eta _n]y=[\xi _1,\xi _2,\cdots,\xi _n]Cy \rightarrow x=Cy$$
+
+ 称为坐标变换公式。
