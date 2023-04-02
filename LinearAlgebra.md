@@ -12,6 +12,25 @@
 
 ## 目录：
 
+- [行列式](#行列式)
+  - [第一种概念：几何意义](#第一种概念几何意义)
+  - [第二种概念：逆序数法](#第二种概念逆序数法)
+  - [第三种概念：行列式展开定理](#第三种概念行列式展开定理)
+  - [行列式习题,仅技巧型](#行列式习题仅技巧型)
+- [矩阵](#矩阵)
+  - [矩阵的基本运算](#矩阵的基本运算)
+  - [矩阵的逆](#矩阵的逆)
+  - [伴随矩阵](#伴随矩阵)
+  - [转置，逆，伴随公式对比](#转置逆伴随公式对比)
+  - [初等变换与初等矩阵](#初等变换与初等矩阵)
+  - [等价矩阵和矩阵的等价标准型](#等价矩阵和矩阵的等价标准型)
+  - [矩阵的秩](#矩阵的秩)
+- [向量组](#向量组)
+  - [相关概念](#相关概念)
+  - [判断线性相关的七大定理](#判断线性相关的七大定理)
+  - [极大线性无关组、等价向量组、向量组的秩](#极大线性无关组等价向量组向量组的秩)
+  - [向量空间](#向量空间)
+  - [题目练习](#题目练习)
 
 
 # 行列式
@@ -501,6 +520,8 @@ $$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$$
 
 则称$\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_n}$为向量组的极大线性无关组，一般极大线性无关组不唯一
 
+**极大线性无关组求法**：将矩阵作初等行变换化为行阶梯形（零行放在最下面），梯数为矩阵的秩，再找秩个向量作为极大线性无关组
+
 （二）等价向量组
 
 设两个向量组：$(A)\alpha_1,\alpha_2,\cdots,\alpha_n,(B)\beta _1,\beta _2,\cdots,\beta _m$，若$(A)$中每个向量可由$(B)$线性表出，则称$(A)$可由向量组$(B)$线性表出；若俩向量组可互相线性表出，则称两向量组等价记作$A \simeq B$
@@ -527,6 +548,8 @@ $$k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$$
 
 $$r(A) \leq r(B)$$
 
+4. $r(AB) \leq min[r(A),r(B)];r(A+B)\leq r([A,B]) \leq r(A)+r(B)$
+
 ## 向量空间
 
 （一）概念
@@ -550,3 +573,17 @@ $$\alpha =\alpha _1 \xi _1+\alpha _2\xi _2+\cdots+\alpha _n\xi _n$$
  $$\alpha=[\xi _1,\xi _2,\cdots,\xi _n]x=[\eta _1,\eta _2,\cdots,\eta _n]y=[\xi _1,\xi _2,\cdots,\xi _n]Cy \rightarrow x=Cy$$
 
  称为坐标变换公式。
+ 
+ ## 题目练习
+
+<div align="center"><img src="/LApic/3.1.jpg" width="400"></div>
+   
+<div align="center"><img src="/LApic/3.2.jpg" width="400"></div>
+ 
+<div align="center"><img src="/LApic/3.3.jpg" width="400"></div>
+
+<div align="center"><img src="/LApic/3.4.jpg" width="400"></div>
+
+<div align="center"><img src="/LApic/3.5.jpg" width="400"></div>
+
+ <div align="center"><img src="/LApic/3.6.jpg" width="400"></div>
