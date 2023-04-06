@@ -21,7 +21,7 @@ $$f'(a)=\lim_{x \to a}\frac{f(x)-f(a)}{x-a}=\lim_{\Delta x \to 0}\frac{\Delta y}
 
 1. 连续：$\lim_{x \to a}f(x)=f(a)$
 
-2. 可导：$f(a-0)=f(a+0)$
+2. 可导：$f'(a-0)=f'(a+0)$
 
 ## §2 可微定义
 如果$f(x_0+\Delta x)-f(x_0)=A\Delta x+o(\Delta x)$则称$f(x)$在$x=x_0$可微。

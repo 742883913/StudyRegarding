@@ -69,7 +69,7 @@
 - ou读作呜，oû,où不变
   
 ### ch和en
-- ch读作$\int$
+- ch读作 [ʃ]
 - en,em,an,am读作半开的昂
 - en,em,an,am+元音字母/m/n，就分开读 
   
