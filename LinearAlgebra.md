@@ -31,6 +31,9 @@
   - [极大线性无关组、等价向量组、向量组的秩](#极大线性无关组等价向量组向量组的秩)
   - [向量空间](#向量空间)
   - [题目练习](#题目练习)
+- [线性方程组](#线性方程组)
+  - [齐次线性方程组](#齐次线性方程组)
+  - [非齐次线性方程组](#非齐次线性方程组)
 
 
 # 行列式
@@ -574,7 +577,7 @@ $$\alpha =\alpha _1 \xi _1+\alpha _2\xi _2+\cdots+\alpha _n\xi _n$$
 
  称为坐标变换公式。
  
- ## 题目练习
+## 题目练习
 
 <div align="center"><img src="/LApic/3.1.jpg" width="400"></div>
    
@@ -586,4 +589,51 @@ $$\alpha =\alpha _1 \xi _1+\alpha _2\xi _2+\cdots+\alpha _n\xi _n$$
 
 <div align="center"><img src="/LApic/3.5.jpg" width="400"></div>
 
- <div align="center"><img src="/LApic/3.6.jpg" width="400"></div>
+<div align="center"><img src="/LApic/3.6.jpg" width="400"></div>
+
+# 线性方程组
+
+## 齐次线性方程组
+
+$$\begin{split}
+  &x_1\alpha _1+x_2\alpha _2+\cdots +x_n \alpha _n=0\\
+  &Ax=0
+\end{split}$$
+
+（一）有解的条件
+
+当$r(A)=n,(\alpha _1,\alpha _2,\cdots,\alpha _n$线性无关$)$；方程组有唯一零解
+
+当$r(A)=r<n$,方程组有无数个解，且有$n-r$个线性无关解
+
+（二）解的性质
+
+若$A\xi _1=0,A\xi _2=0$则$A(k_1\xi _1+k_2\xi _2)=0$
+
+（三）基础解系和解的结构
+
+1. 设$\xi _1,\xi _2,\cdots,\xi _{n-r}$满足：（1）是$Ax=0$的解；（2）线性无关；（3）方程组的任意一解可由$\xi _1,\xi _2,\cdots,\xi _{n-r}$线性表出，则称$\xi _1,\xi _2,\cdots,\xi _{n-r}$为方程组的基础解系
+2. 通解：设$\xi _1,\xi _2,\cdots,\xi _{n-r}$是方程组的基础解系，则$k_1\xi _1+\cdots +k_{n-r}\xi _{n-r}$是方程组的通解
+
+（四）求解方法
+
+初等行变换，化为行阶梯形矩阵$\rightarrow$选秩个线性无关列向量，并在空缺位置设线性无关向量，代入矩阵求解
+
+[例题]
+
+## 非齐次线性方程组
+
+（一）有解条件
+
+1. $r(A)\neq r(A|B)\rightarrow r(A)+1=r(A|B)$ 则方程组无解
+2. $r(A)= r(A|B)=n$ 有唯一解
+3. $r(A)= r(A|B)=r<n$ 有无穷多解
+
+（二）解的性质
+
+设$\alpha _1,\alpha _2,\alpha$ 是非齐次线性方程组的解，$\xi$ 是齐次线性方程组的解，则
+
+1. $\alpha _1-\alpha _2$ 是齐次线性方程组的解
+2. 非齐次方程组的通解=齐次线性方程的通解+特解
+ 
+   
