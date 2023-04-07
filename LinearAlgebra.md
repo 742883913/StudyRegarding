@@ -579,17 +579,17 @@ $$\alpha =\alpha _1 \xi _1+\alpha _2\xi _2+\cdots+\alpha _n\xi _n$$
  
 ## 题目练习
 
-<div align="center"><img src="/LApic/3.1.jpg" width="400"></div>
+<div align="center"><img src="./LApic/3.1.jpg" width="400"></div>
    
-<div align="center"><img src="/LApic/3.2.jpg" width="400"></div>
+<div align="center"><img src="./LApic/3.2.jpg" width="400"></div>
  
-<div align="center"><img src="/LApic/3.3.jpg" width="400"></div>
+<div align="center"><img src="./LApic/3.3.jpg" width="400"></div>
 
-<div align="center"><img src="/LApic/3.4.jpg" width="400"></div>
+<div align="center"><img src="./LApic/3.4.jpg" width="400"></div>
 
-<div align="center"><img src="/LApic/3.5.jpg" width="400"></div>
+<div align="center"><img src="./LApic/3.5.jpg" width="400"></div>
 
-<div align="center"><img src="/LApic/3.6.jpg" width="400"></div>
+<div align="center"><img src="./LApic/3.6.jpg" width="400"></div>
 
 # 线性方程组
 
