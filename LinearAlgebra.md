@@ -34,6 +34,7 @@
 - [线性方程组](#线性方程组)
   - [齐次线性方程组](#齐次线性方程组)
   - [非齐次线性方程组](#非齐次线性方程组)
+    - [题型](#题型)
 
 
 # 行列式
@@ -635,5 +636,10 @@ $$\begin{split}
 
 1. $\alpha _1-\alpha _2$ 是齐次线性方程组的解
 2. 非齐次方程组的通解=齐次线性方程的通解+特解
- 
-   
+
+### 题型
+ <div align="center"><img src="./LApic/l4.5.jpg" width="400"></div>
+
+<div align="center"><img src="./LApic/l4.6.jpg" width="400"></div>
+
+<div align="center"><img src="./LApic/l4.7.jpg" width="400"></div>
