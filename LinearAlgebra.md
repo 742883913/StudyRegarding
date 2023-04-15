@@ -19,6 +19,7 @@
   - [行列式习题,仅技巧型](#行列式习题仅技巧型)
 - [矩阵](#矩阵)
   - [矩阵的基本运算](#矩阵的基本运算)
+  - [转置矩阵](#转置矩阵)
   - [矩阵的逆](#矩阵的逆)
   - [伴随矩阵](#伴随矩阵)
   - [转置，逆，伴随公式对比](#转置逆伴随公式对比)
@@ -35,6 +36,8 @@
   - [齐次线性方程组](#齐次线性方程组)
   - [非齐次线性方程组](#非齐次线性方程组)
     - [题型](#题型)
+  - [两个方程组的公共解](#两个方程组的公共解)
+  - [同解方程组](#同解方程组)
 
 
 # 行列式
@@ -251,6 +254,19 @@ $$\begin{vmatrix}
    **正交矩阵**：$AA^T=E,A$ 的行（列）向量组为标准正交向量组
 
 
+## 转置矩阵
+
+   > 转置矩阵为将矩阵的行列互换得到的矩阵
+
+   $$\begin{split}
+    &(A^T)^T=A \qquad(1)\\
+    &(kA)^T=kA^T \qquad(2)\\
+    &(A+B)^T=A^T+B^T \qquad(3)\\
+    &(AB)^T=B^TA^T \qquad(4)\\
+    &m=n \text{时} \lvert A^T \rvert =\lvert A \rvert \qquad(5)\\
+    &A^TA=\lvert A \rvert ^2 
+   \end{split}$$
+
 ## 矩阵的逆
 
 （一）定义
@@ -449,6 +465,7 @@ $$\begin{split}
   &r(kA)=r(A)\\
   &r(AB) \leq min[r(A),(B)]\\
   &r(A+B) \leq r(A)+r(B)\\
+  &r(A)=r(A^T)=r(AA^T)=r(A^TA)
 \end{split}$$
 
 $$r(A^*)=\begin{cases}
@@ -620,7 +637,6 @@ $$\begin{split}
 
 初等行变换，化为行阶梯形矩阵$\rightarrow$选秩个线性无关列向量，并在空缺位置设线性无关向量，代入矩阵求解
 
-[例题]
 
 ## 非齐次线性方程组
 
@@ -643,3 +659,35 @@ $$\begin{split}
 <div align="center"><img src="./LApic/l4.6.jpg" width="400"></div>
 
 <div align="center"><img src="./LApic/l4.7.jpg" width="400"></div>
+
+## 两个方程组的公共解
+
+（一）$Ax=0$与$Bx=0$ 的公共解满足
+
+$$\begin{pmatrix}
+  A\\
+  B
+\end{pmatrix}x=0$$
+
+  联立求解即可。
+
+（二）求出$Ax=0$的通解，代入 $Bx=0$ 求出系数之间的关系，再代回 $Ax=0$ 的通解，即得公共解
+
+（三）$Ax-0,Bx=0$ 得基础解系分别为 $\xi _1,\xi _2,\cdots,\xi _s;\alpha _1,\alpha _2,\cdots,\alpha _t$ ，则公共解 $\gamma = k_1 \xi _1+ k_2 \xi _2+\cdots +k_s \xi _s=l_1 \alpha _1+ l_2 \alpha _2+\cdots +l_t \alpha _t$ ，联立得：
+
+$$ k_1 \xi _1+ k_2 \xi _2+\cdots +k_s \xi _s-(l_1 \alpha _1+ l_2 \alpha _2+\cdots +l_t \alpha _t)=0$$
+
+解出$k,l$ 
+
+## 同解方程组
+
+概念：若两个方程组有完全相同的解，则称为同解方程组
+
+$$\begin{split}
+  &把两方程组的解互相代入求解即可\\
+  &r(A)=r(B),且Ax=0的解满足Bx=0的解\\
+  &r(A)=r(B)=r\begin{pmatrix}
+    A\\
+    B
+  \end{pmatrix}
+\end{split}$$
