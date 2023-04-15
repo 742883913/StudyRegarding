@@ -626,9 +626,9 @@ $$\begin{split}
 
 （一）有解条件
 
-1. $r(A)\neq r(A|B)\rightarrow r(A)+1=r(A|B)$ 则方程组无解
-2. $r(A)= r(A|B)=n$ 有唯一解
-3. $r(A)= r(A|B)=r<n$ 有无穷多解
+1. $r(A)\neq r(A,B)\rightarrow r(A)+1=r(A|B)$ 则方程组无解
+2. $r(A)= r(A,B)=n$ 有唯一解
+3. $r(A)= r(A,B)=r<n$ 有无穷多解
 
 （二）解的性质
 
