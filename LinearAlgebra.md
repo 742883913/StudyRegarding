@@ -38,6 +38,8 @@
     - [题型](#题型)
   - [两个方程组的公共解](#两个方程组的公共解)
   - [同解方程组](#同解方程组)
+- [特征值与特征向量](#特征值与特征向量)
+  - [求解特征方程](#求解特征方程)
 
 
 # 行列式
@@ -691,3 +693,38 @@ $$\begin{split}
     B
   \end{pmatrix}
 \end{split}$$
+
+# 特征值与特征向量
+
+（一）基本概念
+
+$$A\xi=\lambda \xi$$
+
+则称$\lambda$ 为$A$ 的特征值 $\xi$ 为$A$ 对应于$\lambda$ 的特征向量
+
+$$\lvert \lambda E-A \rvert =0$$
+
+称为$A$的特征方程
+
+（二）基本性质
+
+1. 
+   
+$$\begin{split}
+  &\sum _{i=1}^n \lambda _i=\sum _{i=1}^n a_{ii}=tr(A)\\
+  &\prod_{i=1}^n \lambda _i = \lvert A \rvert
+\end{split}$$
+
+2. 
+
+$$\begin{split}
+  &(1)k重特征值\lambda 最多有k个线性无关的特征向量\\
+&(2)若\xi _1,\xi _2 是A 属于不同特征值 \lambda _1,\lambda _2的特征向量，则\xi _1,\xi _2线性无关\\
+&(3)若\xi _1,\xi _2 是A 属于相同特征值 \lambda 的特征向量，则k_1 \xi_1 +k_2 \xi _2(k_1 k_2 \neq 0)仍是属于\lambda 的特征值
+\end{split}$$
+
+## 求解特征方程
+
+方法：（一）根据特征方程求解$\lambda$ （二）代入求解特征向量
+
+技巧：求$\lambda$ 时可以用猜值法做，并且当式子形如$x^k+a_{k-a}x^{k-1}+\cdots +a_0=0$时根是$a_0$的因子
