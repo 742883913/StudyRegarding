@@ -732,6 +732,13 @@ $$\begin{split}
 
 技巧：求$\lambda$ 时可以用猜值法做，并且当式子形如$x^k+a_{k-a}x^{k-1}+\cdots +a_0=0$时根是$a_0$的因子
 
+
+矩阵|$A$|$kA$|$A^k$|$f(A)$|$A^{-1}$|$A^*$|$P^{-1}AP$
+---|---|---|---|---|---|---|---|
+特征值|$\lambda$|$k\lambda$|$\lambda ^k$|$f(\lambda )$|$\frac{1}{\lambda}$|$\frac{\lvert A \rvert}{\lambda}$|$\lambda$
+特征向量|$\xi$|$\xi$|$\xi$|$\xi$|$\xi$|$\xi$|$P^{-1}\xi$|
+
+
 ## 矩阵的相似
 
 （一）定义
