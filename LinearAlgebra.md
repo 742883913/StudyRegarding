@@ -40,6 +40,9 @@
   - [同解方程组](#同解方程组)
 - [特征值与特征向量](#特征值与特征向量)
   - [求解特征方程](#求解特征方程)
+  - [矩阵的相似](#矩阵的相似)
+  - [矩阵的相似对角化](#矩阵的相似对角化)
+  - [实对称矩阵必可相似于对角矩阵](#实对称矩阵必可相似于对角矩阵)
 
 
 # 行列式
@@ -728,3 +731,59 @@ $$\begin{split}
 方法：（一）根据特征方程求解$\lambda$ （二）代入求解特征向量
 
 技巧：求$\lambda$ 时可以用猜值法做，并且当式子形如$x^k+a_{k-a}x^{k-1}+\cdots +a_0=0$时根是$a_0$的因子
+
+## 矩阵的相似
+
+（一）定义
+
+$A,B$是$n$阶**方阵**，若存在$P^{-1}AP=B$,则$A \sim B$
+
+> $A \sim B,B \sim C \rightarrow A \sim C$
+
+（二）相似矩阵的性质
+
+1. $r(A)=r(B);\lvert A \rvert =\lvert B \rvert;\lvert \lambda E -A \rvert =\lvert \lambda E-B \rvert;A,B特征值相同 $
+
+2. $A \sim B \rightarrow A^m \sim B^m,f(A) \sim f(B)$
+
+3. $A \sim B,A可逆 \rightarrow A^{-1} \sim B^{-1},f(A^{-1}) \sim f(B^{-1}) $
+
+4. $A \sim B \rightarrow A^T \sim B^T$
+
+5. $A \sim B,A可逆 \rightarrow A^* \sim B^*$
+
+## 矩阵的相似对角化
+
+（一）定义
+
+$P^{-1}AP=\Lambda $ 其中 $\Lambda$ 为对角阵，称$\Lambda$为$A$的相似标准型
+
+（二）矩阵可相似对角化的条件
+
+$$A\begin{pmatrix}
+  \xi _1,\xi _2,\cdots ,\xi _n
+\end{pmatrix}=
+\begin{pmatrix}
+  \xi _1,\xi _2,\cdots ,\xi _n
+\end{pmatrix}
+\begin{pmatrix}
+  \lambda _1\\
+   & \lambda _2\\
+   & & \cdots \\
+   & & & \lambda _n
+\end{pmatrix}\rightarrow A\xi _i=\lambda \xi _i$$
+
+因为$P$可逆，则$\xi _1,\xi _2,\cdots$线性无关。由此可见：
+1. $n$阶矩阵$A$可相似对角化 $\leftrightarrow$ $A$ 有 $n$ 个线性无关的特征向量
+2. $n$阶矩阵$A$可相似对角化 $\leftrightarrow$ $A$ 对应的每个$k$ 重特征值有$k$ 个线性无关的特征向量
+3. $n$阶矩阵有$n$个不同特征值 $\rightarrow$ 矩阵可相似对角化
+4. 矩阵若为实对称矩阵，则一定可相似对角化
+
+（三）过程
+
+求出特征值，特征向量 $\rightarrow$ $p=(\xi _1,\xi _2,\cdots ,\xi _n),P^{-1}AP=\Lambda$
+
+## 实对称矩阵必可相似于对角矩阵
+
+1. 实对称矩阵属于不同特征值的特征向量互相正交
+2. $P^{-1}AP=P^TAP=\Lambda$
