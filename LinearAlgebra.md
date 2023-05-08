@@ -750,7 +750,7 @@ $A,B$是$n$阶**方阵**，若存在$P^{-1}AP=B$,则$A \sim B$
 
 （二）相似矩阵的性质
 
-1. $r(A)=r(B);\lvert A \rvert =\lvert B \rvert;\lvert \lambda E -A \rvert =\lvert \lambda E-B \rvert;A,B特征值相同 $
+1. $r(A)=r(B);\lvert A \rvert =\lvert B \rvert;\lvert \lambda E -A \rvert =\lvert \lambda E-B \rvert;A,B特征值相同；tr(A)=tr(B) $
 
 2. $A \sim B \rightarrow A^m \sim B^m,f(A) \sim f(B)$
 
