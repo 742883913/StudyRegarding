@@ -206,7 +206,7 @@ $$\begin{vmatrix}
    $$(\alpha,\beta)=\alpha^T \beta= \sum _{i=1}^n a_ib_i$$
 
   - 正交
-   > 当$(\alpha,\beta)=\alpha^T \beta = 0$ 时称 $\alpha,\beta$ 两向量正交
+   > 当$(\alpha,\beta)=\alpha^T \beta = 0$ 时称 $\alpha,\beta$ 
 
   - 向量的模
 
