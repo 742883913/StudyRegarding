@@ -920,8 +920,8 @@ $$A\begin{pmatrix}
 （3）二次型正定的必要条件
 
    $$\begin{split}
-    a_{ii}>0 \qquad(1)\\
-    \lvert A \rvert >0 \qquad(2)
+   &a_{ii}>0 \qquad(1)\\
+    &\lvert A \rvert >0 \qquad(2)
    \end{split}$$
 
    例题：
