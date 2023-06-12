@@ -855,6 +855,10 @@ $$A\begin{pmatrix}
 
     合同具有反身性，传递性，对称性。
 
+    例题：合同是通过线性变换得到的，所以一定满足惯性定理
+   <div align="center"><img src="./LApic/l6,4.jpeg" width="400"></div>
+
+
  3. 二次型的标准型和规范型
    
    标准型：除二次项外所有的混合项系数都为零
@@ -906,12 +910,24 @@ $$A\begin{pmatrix}
     &A的全部顺序主子式均大于零 
   \end{split}$$
 
+  $$A正定 \rightleftarrows\begin{split}
+    &A^T正定\\
+    &A^{-1}正定
+  \end{split}，A正定\rightrightarrows A^*正定$$
+
 （3）二次型正定的必要条件
 
    $$\begin{split}
     a_{ii}>0 \qquad(1)\\
     \lvert A \rvert >0 \qquad(2)
    \end{split}$$
+
+   例题：
+    <div align="center"><img src="./LApic/l6.5.jpeg" width="400"></div>
+
+  <div align="center"><img src="./LApic/l6.6.jpeg" width="400"></div>
+
+   <div align="center"><img src="./LApic/l6.7.jpeg" width="400"></div>
 
 
 
