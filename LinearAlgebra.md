@@ -923,11 +923,11 @@ $$A\begin{pmatrix}
    \end{split}$$
 
    例题：
-    <div align="center"><img src="./LApic/l6.5.jpeg" width="400"></div>
+  <div align="center"><img src="./LApic/l6.5.jpeg" width="400"></div>
 
   <div align="center"><img src="./LApic/l6.6.jpeg" width="400"></div>
 
-   <div align="center"><img src="./LApic/l6.7.jpeg" width="400"></div>
+  <div align="center"><img src="./LApic/l6.7.jpeg" width="400"></div>
 
 
 
