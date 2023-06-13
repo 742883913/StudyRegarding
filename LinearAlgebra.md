@@ -883,6 +883,8 @@ $$A\begin{pmatrix}
    
    （3）将基础解系构成正交矩阵，写出线性变换并求出标准型。
    
+    求出来的特征值就是标准型的系数。
+   
    例题：
 <div align="center"><img src="./LApic/l6.3.jpeg" width="400"></div>
 
