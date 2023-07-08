@@ -34,6 +34,10 @@
 
 [整合版](LinearAlgebra.md)
 
+### 概率论
+
+[整合版](/Probability.md)
+
 #### 英语
 
 [单词](EnglishChapter/word.md)
