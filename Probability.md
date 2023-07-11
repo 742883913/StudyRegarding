@@ -76,7 +76,7 @@ $$P(A \cup B \cup C)=P(A)+P(B)+P(C)-P(AB)-P(AC)-P(BC)+P(ABC)$$
 
 减法公式：
 
-$$P(A-B)=P(A)-P(AB)=P(A\bar{B})$$
+$$P(A-B)=P(A)-P(AB)=P(A\overline{B})$$
 
 条件概率公式：
 
