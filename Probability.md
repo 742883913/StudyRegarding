@@ -151,5 +151,20 @@ $P$|$p_1\qquad p_2\qquad \cdots$
 
 设离散型随机变量 $X$ 的概率分布为 $P\lbrace X= x_i\rbrace=P_i$ ，则其分布函数
 
-$$$$
+$$\begin{split}
+  &F(x)=P\lbrace X\leq x\rbrace=\sum P\lbrace X= x_i\rbrace\\
+  &P\lbrace X= x_i\rbrace=P\lbrace X\leq x_i\rbrace-P\lbrace X< x_i\rbrace=F(x_i)-F(x_i-0)\\
+  &P\lbrace a<X\leq b\rbrace=P\lbrace X\leq b\rbrace -P\lbrace X\leq a\rbrace=F(b)-F(a)
+\end{split}$$
 
+（二）连续型随机变量
+
+如果随机变量的分布函数能表达为
+
+$$F(x)=\int ^x_{-\infty}f(t)dt$$
+
+其中 $f(x)$ 为非负可积函数，则称其为连续性随机变量，称 $f(x)$ 为概率密度，记为 $X\sim f(x)$ 
+
+改变 $f(x)$ 有限个点 $f(x)$仍是概率密度
+
+$$P\lbrace a<X< b\rbrace=P\lbrace a<X\leq b\rbrace=P\lbrace a\leq X< b\rbrace=P\lbrace a\leq X\leq b\rbrace=\int ^b_a f(t)dt=F(b)-F(a)$$
