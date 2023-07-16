@@ -20,6 +20,7 @@
 - [第二讲：一维随机变量及其分布](#第二讲一维随机变量及其分布)
   - [随机变量及其分布函数的概念、性质及应用](#随机变量及其分布函数的概念性质及应用)
   - [常见的随机变量](#常见的随机变量)
+  - [常见的随机变量分布类型](#常见的随机变量分布类型)
 
 
 # 第一讲：随机事件与概率
@@ -177,3 +178,88 @@ $$F(x)=\int ^x_{-\infty}f(t)dt$$
 改变 $f(x)$ 有限个点 $f(x)$仍是概率密度
 
 $$P\lbrace a<X< b\rbrace=P\lbrace a<X\leq b\rbrace=P\lbrace a\leq X< b\rbrace=P\lbrace a\leq X\leq b\rbrace=\int ^b_a f(t)dt=F(b)-F(a)$$
+
+## 常见的随机变量分布类型
+
+（一）离散型
+
+（1）$0-1$ 分布 $B(1,p)$
+
+ 如果 $X$ 的概率分布为 
+
+ $$X\sim \begin{pmatrix}
+  0 & 1\\
+  p & 1-p
+ \end{pmatrix}$$
+
+ 则称 $X$ 服从参数为 $p$ 的 $0-1$ 分布
+
+（2）二项分布 $B(n,p)$ ($0-1$ 分布进行 $n$ 次)
+
+ $X$ 的概率分布为 
+ 
+ $$P\lbrace X=k\rbrace =C_n^Kp^k(1-p)^{n-k}$$
+
+（3）泊松分布 $P(\lambda)$
+
+ $\lambda$ 为强度参数， $X$ 的概率分布为 
+ 
+ $$P\lbrace X=k\rbrace =\frac{\lambda ^k}{k!}e^{-\lambda}$$
+
+（4）几何分布 $G(p)$ （首中即停止）
+
+ $X$ 的概率分布为 
+ 
+ $$P\lbrace X=k\rbrace =(1-p)^{k-1}p$$
+
+（二）连续型
+
+（1）均匀分布 $U(a,b)$
+
+ $X$ 的概率密度和分布函数分别为 
+
+ $$f(x)=\begin{cases}
+  \frac{1}{b-a},a<x<b\\
+  0\quad ,others
+ \end{cases}$$
+
+ $$F(x)=\begin{cases}
+  0\quad ,x<a\\
+  \frac{x-a}{b-a},a\leq x<b\\
+  1\quad ,x\geq b
+ \end{cases}$$
+
+（2）指数分布 $E(\lambda)$
+
+ $\lambda$ 为失效率，$X$ 的概率密度和分布函数分别为 
+
+ $$f(x)=\begin{cases}
+  \lambda e^{-\lambda x},x>0\\
+  0\quad ,others
+ \end{cases}$$
+
+ $$F(x)=\begin{cases}
+  1-e^{-\lambda x},x>0\\
+  0\qquad ,others
+ \end{cases}$$
+ 
+（3）正态分布 $N(\mu,\sigma ^2)$
+
+ $X$ 的概率密度为
+
+ $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2},x\in (-\infty,+\infty),\mu\in (-\infty,+\infty),\sigma\in (0,+\infty)$$
+
+ $f(x)$ 关于 $x=\mu$ 对称，并在此处有最大值,如图
+
+ <div align="center"><img src="./PPic/ZTFB.jpg" width="400"></div>
+
+ 当 $\mu=0,\sigma=1$ 称为标准正态分布，概率密度为
+
+  $$\phi(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2},x\in (-\infty,+\infty)$$
+
+
+
+
+
+
+
