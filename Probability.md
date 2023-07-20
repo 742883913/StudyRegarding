@@ -21,6 +21,8 @@
   - [随机变量及其分布函数的概念、性质及应用](#随机变量及其分布函数的概念性质及应用)
   - [常见的随机变量](#常见的随机变量)
   - [常见的随机变量分布类型](#常见的随机变量分布类型)
+  - [一维随机变量函数的分布](#一维随机变量函数的分布)
+
 
 
 # 第一讲：随机事件与概率
@@ -253,9 +255,51 @@ $$P\lbrace a<X< b\rbrace=P\lbrace a<X\leq b\rbrace=P\lbrace a\leq X< b\rbrace=P\
 
  <div align="center"><img src="./PPic/ZTFB.jpg" width="400"></div>
 
- 当 $\mu=0,\sigma=1$ 称为标准正态分布，概率密度为
+ 当 $\mu=0,\sigma=1$ 称为标准正态分布，概率密度和分布函数分别为
 
   $$\phi(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2},x\in (-\infty,+\infty)$$
+
+  $$\Phi (x)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^xe^{=\frac{t^2}{2}}dt$$
+
+ $$\Phi (0)=\frac{1}{2}, \Phi (-x)=1-\Phi (x)$$
+
+ 若 $X$ 满足标准正态分布， $P\lbrace X>\mu _0\rbrace =\alpha$ 则称 $\mu _0$ 为上 $\alpha$ 分位点 
+
+ 若 $X\sim N(\mu,\sigma ^2)$:
+
+ $$\begin{split}
+  &F(x)=P\lbrace X\leq k\rbrace =\Phi (\frac{x-\mu}{\sigma})\\
+  &F(\mu -x)+F(\mu +x)=1\\
+  &P\lbrace a<X<b\rbrace= \Phi (\frac{b-\mu}{\sigma})-\Phi (\frac{a-\mu}{\sigma})\\
+  &aX+b\sim N(a\mu+b,a^2\mu ^2)
+ \end{split}$$
+
+## 一维随机变量函数的分布
+
+（一）概念
+
+ 设 $X$ 为随机变量，函数 $y=g(x)$ 则以随机变量为自变量的函数也是随机变量，称为随机变量 $X$ 的函数
+
+（二）随机变量函数的分布
+
+（1）离散型 到 离散型
+
+$X$ 的概率分布为 $P\lbrace X= x_i\rbrace =p_i$ ，则 $X$ 的函数 $Y=g(X)$ 也是离散型随机变量，其概率分布为 $P\lbrace Y=g(x_i)\rbrace =p_i$
+
+$$Y\sim \begin{pmatrix}
+  g(x_1) & g(x_2) & \cdots\\
+  p_1 & p_2 & \cdots 
+\end{pmatrix}$$
+
+若有的值相同，则合并为一项
+
+（2）连续型 到 连续型
+
+$$F_Y(y)=P\lbrace Y\leq y\rbrace =P\lbrace g(X)\leq y\rbrace=\int _{g(x)\leq y}f_X(x)dx$$
+
+概率密度等于分布函数求导。
+
+
 
 
 
