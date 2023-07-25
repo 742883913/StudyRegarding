@@ -22,6 +22,10 @@
   - [常见的随机变量](#常见的随机变量)
   - [常见的随机变量分布类型](#常见的随机变量分布类型)
   - [一维随机变量函数的分布](#一维随机变量函数的分布)
+- [第三讲：多维随机变量及其分布](#第三讲多维随机变量及其分布)
+  - [二维随机变量及分布函数](#二维随机变量及分布函数)
+  - [二维离散型随机变量的概率分布，边缘分布和条件分布](#二维离散型随机变量的概率分布边缘分布和条件分布)
+  - [二维连续型随机变量的概率分布，边缘分布和条件分布](#二维连续型随机变量的概率分布边缘分布和条件分布)
 
 
 
@@ -298,6 +302,105 @@ $$Y\sim \begin{pmatrix}
 $$F_Y(y)=P\lbrace Y\leq y\rbrace =P\lbrace g(X)\leq y\rbrace=\int _{g(x)\leq y}f_X(x)dx$$
 
 概率密度等于分布函数求导。
+
+# 第三讲：多维随机变量及其分布
+
+## 二维随机变量及分布函数
+
+（一）当满足
+
+ $$F(x,y)=P\lbrace X\leq x,Y\leq y\rbrace$$
+
+ 则称其为二维随机变量的联合分布函数。
+
+（二）性质
+
+ 1. 单调性
+  
+   - 单调不减性
+   - 右连续性
+   - 有界性
+     
+     $F(-\infty ,y)=F(x,-\infty)=F(-\infty ,-\infty)=0,F(+\infty,+\infty)=1$
+
+   - 非负性
+     
+     $P\lbrace x_1<X\leq x_2,y_1<Y\leq y_2\rbrace=F(x_2,y_2)-F(x_2,y_1)-F(x_1,y_2)+F(x_1,y_1)$
+  
+ （三）边缘分布函数
+
+ $$F_X(x)=P\lbrace X\leq x\rbrace=P\lbrace X\leq x, Y\leq+\infty\rbrace=F(x,+\infty)$$
+
+ 同理，$F_Y(y)=F(+\infty,y)$
+
+## 二维离散型随机变量的概率分布，边缘分布和条件分布
+
+（一）概率分布
+
+ <div align="center"><img src="./PPic/P3.2.jpg" width="500"></div>
+
+（二）联合分布函数、边缘分布、条件分布
+
+- 联合分布函数
+   
+   $$F(X,Y)=P\lbrace X\leq x,Y\leq y\rbrace$$
+
+   > 它是以 $(x,y)$ 为顶点的左下角平面上取所有可能值的概率和；对于区域上，其联合分布函数是区域内所有可能值的和
+
+- 边缘分布
+  
+  $$P\lbrace X\leq x_i\rbrace=\sum _j^{=\infty}P\lbrace X\leq x_i,Y\leq y_j\rbrace$$
+
+- 条件分布
+
+$$P\lbrace X= x_i\lvert Y= y_j\rbrace =\frac{P\lbrace X=x_i,Y=y_j\rbrace}{P\lbrace Y=y_j\rbrace}$$
+
+## 二维连续型随机变量的概率分布，边缘分布和条件分布
+
+（一）联合分布函数与概率密度、边缘概率密度，条件概率密度
+
+$$F(X,Y)=\int ^y_{-\infty}\int^x_{-\infty}f(u,v)dudv$$
+
+- 在某区域上的分布函数
+ 
+  $$P\lbrace (X,Y)\in G\rbrace =\iint_Gf(u,v)dudv$$
+
+- 若 $f(x,y)$ 在该点处连续，则
+
+ $$\frac{\partial ^2 F(x,y)}{\partial x\partial y}=f(x,y)$$
+
+（二）边缘概率密度
+
+$$F_X(x)=F(x,+\infty)=\int ^x_{-\infty}\int^{+\infty}_{-\infty}f(u,v)dvdu $$
+
+则关于 $X$ 的边缘概率密度为
+
+$$f_X(x)=\int^{+\infty}_{-\infty}f(x,y)dy$$
+
+条件概率密度：
+
+$$f_{X\lvert Y}(X\lvert Y)=\frac{f(x,y)}{f_Y(y)}$$
+
+> $F_{X\lvert Y}(X\lvert Y)=\int _{-\infty}^xf_{X\lvert Y}(X\lvert Y)dx$ 称为 $X$ 在 $Y=y$ 条件下的条件分布函数
+
+（三）常见的分布
+
+- 二维均匀分布
+
+ 称 $(X,Y)$ 在平面区域 $D$ 内服从均匀分布，如果其概率密度为
+
+ $$f(x,y)=\begin{cases}
+  \frac{1}{S_D},(x,y)\in D\\
+  0,else
+ \end{cases}$$
+
+ $S_D$ 为区域的面积。
+
+ 口诀：求谁不积谁，不积先定限，限内画条线，先交写下限，后交写上限。
+
+
+
+
 
 
 
