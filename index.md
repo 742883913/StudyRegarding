@@ -30,6 +30,7 @@
 
 [高等数学做题技巧](MathSkills.md)
 
+[公式集合](/Formula.md)
 #### 线性代数
 
 [整合版](LinearAlgebra.md)
