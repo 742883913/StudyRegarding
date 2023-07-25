@@ -18,7 +18,7 @@ $$\begin{split}
     &\sec ^2x=1+\tan ^2x\\
     &\csc ^2x=1+\cot ^2x\\
     &\arcsin x+\arccos x=\frac{\pi}{2}\\
-    &\arctan x+\arcctg x=\frac{\pi}{2}
+    &\arctan x+arccot x=\frac{\pi}{2}
 \end{split}$$
 
 ## 奇偶类：
@@ -37,7 +37,7 @@ $$\lim _{n\to +\infty}X_{2n-1}=\lim _{n\to +\infty}X_{2n}$$
 
 - 数列极限的保号性
 
-$$\lim _{n\to +\infty}X_{2n}=a(a>0) \rightarrow\exist N,n>N,X_n>0$$
+$$\lim _{n\to +\infty}X_{2n}=a(a>0) \rightarrow\exists N,n>N,X_n>0$$
 
 - 当 $x\to 0$
 
