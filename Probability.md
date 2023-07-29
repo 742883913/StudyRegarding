@@ -449,9 +449,21 @@ $$Z=XY\rightarrow f_Z(z)=\int ^{+\infty}_{-\infty}\frac{1}{\lvert x\rvert}f(x,\f
   
 $$Z=\frac{X}{Y}\rightarrow f_Z(z)=\int ^{+\infty}_{-\infty}\lvert y\rvert f(zy,y)dy$$
 
+- max分布
 
+$$F(z)=P\lbrace max(X,Y)\leq Z \rbrace=P\lbrace X\leq Z,Y\leq Z\rbrace$$
 
+- min分布
 
+$$F(z)=P\lbrace min(X,Y)\leq Z \rbrace=P\lbrace X\leq Z \cup Y\leq Z\rbrace$$
+
+- 分布函数的可加性
+
+ $$\begin{split}
+  &x\sim B(n,p),y\sim B(m,p),x+y\sim B(m+n,p)\\
+  &x\sim P(\lambda _1),y\sim P(\lambda_2),x+y\sim P(\lambda _1+\lambda _2)\\
+  &x\sim N(\mu_1,\sigma _1^2),y\sim N(\mu_2,\sigma _2^2),x+y\sim N(\mu_1+\mu_2,\sigma _1^2+\sigma _2^2)
+ \end{split}$$
 
 
 
