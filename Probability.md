@@ -418,9 +418,36 @@ $$f_{X\lvert Y}(X\lvert Y)=f_X(x)$$
 
 ## 多维随机变量函数的分布
 
+（一） $(X,Y)$ 一个是离散型，一个是连续型，针对离散型进行全集分解，而后应用全概率公式求得 $Z$ 的分布。
+
+例题
+
+（二）$(X,Y)$ 两个都是连续型， $(X,Y)\sim f(x,y)$ ,则 $Z=g(X,Y)$ 的分布函数
+
+$$F(z)=p\lbrace g(X,Y)<z \rbrace =\iint_{g(X,Y)\leq z}f(x,y)dxdy$$
 
 
+（三）相互独立的随机变量函数的分布及卷积公式
 
+**口诀：** 积谁不换谁，换完求偏导
+
+- 和的分布
+
+$$Z=X+Y\rightarrow f_Z(z)=\int ^{+\infty}_{-\infty}f(x,z-x)dx=\int ^{+\infty}_{-\infty}f(z-y,y)dy$$ 
+
+> $X,Y$ 相互独立的话 $f(x,z-x)=f_X(x)f_Y(Z-X)$
+
+- 差的分布
+
+$$Z=X-Y\rightarrow f_Z(z)=\int ^{+\infty}_{-\infty}f(z+y,y)dy=\int ^{+\infty}_{-\infty}f(x,z+x)dx$$
+
+- 积的分布
+
+$$Z=XY\rightarrow f_Z(z)=\int ^{+\infty}_{-\infty}\frac{1}{\lvert x\rvert}f(x,\frac{z}{x})dx=\int ^{+\infty}_{-\infty}\frac{1}{\lvert y\rvert}f(\frac{z}{y},y)dy$$
+
+- 商的分布
+  
+$$Z=\frac{X}{Y}\rightarrow f_Z(z)=\int ^{+\infty}_{-\infty}\lvert y\rvert f(zy,y)dy$$
 
 
 
