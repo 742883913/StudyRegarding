@@ -383,7 +383,7 @@ $$f_X(x)=\int^{+\infty}_{-\infty}f(x,y)dy$$
 
 $$f_{X\lvert Y}(X\lvert Y)=\frac{f(x,y)}{f_Y(y)}$$
 
-> $F_{X\lvert Y}(X\lvert Y)=\int _{-\infty}^xf_{X\lvert Y}(X\lvert Y)dx$ 称为 $X$ 在 $Y=y$ 条件下的条件分布函数
+> $F_{X\lvert Y}(X\lvert Y)=\int _{-\infty}^xf_{X\lvert Y}(X\lvert Y)dx$称为$X$在$Y=y$条件下的条件分布函数
 
 （三）常见的分布
 
