@@ -39,11 +39,17 @@
 
 [整合版](/Probability.md)
 
+#### 光学
+
+[波动光学](/WaveOptics.md)
+
 #### 英语
 
 [单词](EnglishChapter/word.md)
 
 [短语](EnglishChapter/sentences.md)
+
+
 
 #### 法语
 
