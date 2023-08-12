@@ -31,6 +31,7 @@
 - [第四讲：随机变量的数字特征](#第四讲随机变量的数字特征)
   - [随机变量的期望与性质](#随机变量的期望与性质)
   - [随机变量的方差、标准差和切比雪夫不等式](#随机变量的方差标准差和切比雪夫不等式)
+  - [二维随机变量的数字特征](#二维随机变量的数字特征)
 
 
 
@@ -535,3 +536,55 @@ $$X^*=\frac{X-EX}{\sqrt{DX}}$$
  如果随机变量的期望和方差都存在，则对任意 $\epsilon >0$ ，有
 
  $$P\lbrace \lvert X-EX\lvert \geq \epsilon\rbrace \leq \frac{DX}{\epsilon ^2}$$
+
+常用分布的期望和方差
+
+分布|分布列或概率密度|期望|方差
+---|---|---|---
+0-1分布|$P\lbrace X=k\rbrace =p^k(1-p)^{1-k}, k=0,1$|$p$|$p(1-p)$
+二项分布<br>$B(n,p)$|$P\lbrace X=k\rbrace=C^k_np^k(1-p)^{1-k}$|$np$|$np(1-p)$
+泊松分布<br>$p(\lambda)$|$P\lbrace X=k\rbrace=\frac{\lambda^k}{k!}e^{-\lambda}$|$\lambda$|$\lambda$
+几何分布<br>$G(p)$|$P\lbrace X=k\rbrace=(1-p)^{k-1}p$|$\frac{1}{p}$|$\frac{1-p}{p^2}$
+正态分布<br>$N(\mu ,\sigma ^2)$|$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$|$\mu$|$\sigma ^2$
+均匀分布<br>$U(a,b)$|$f(x)=\frac{1}{b-a},a<x<b$|$\frac{a+b}{2}$|$\frac{(b-a)^2}{12}$
+指数分布<br>$E(\lambda)$|$f(x)=\lambda e^{-\lambda x,x>0}$|$\frac{1}{\lambda}$|$\frac{1}{\lambda ^2}$
+
+## 二维随机变量的数字特征
+
+- 数学期望
+  
+   离散型：
+
+   $$E[g(X,Y)]=\sum _i \sum _j g(x_i,y_i)p_{ij}$$
+
+   连续型：
+
+   $$E[g(X,Y)]=\int ^{+\infty} _{-\infty}\int ^{+\infty} _{-\infty}g(x,y)f(x,y)dxdy$$
+
+- 协方差
+
+ $$Cov(X,Y)=E[(X-EX)(Y-EY)]=E(XY)-EX\cdot EY$$
+
+
+- 相关系数
+
+ $$\rho _{XY}=\frac{Cov(X,Y)}{\sqrt{DX}\sqrt{DY}}$$
+
+ 如果为零，则 $X.Y$ 线性不相关（无线性关系，但可能有关系）
+
+
+- 性质
+
+ （一）对称性
+
+ $$\begin{split}
+  &Cov(X,Y)=Cov(Y,X),\rho _{XY}=\rho _{YX}\\
+  &Cov(X,X)=DX,\rho _{XX}=1
+ \end{split}$$
+
+ （二）线性性
+
+ $$\begin{split}
+  &Cov(X,c)=0 , Cov(aX+b,Y)=aCov(X,Y)\\
+  &Cov(X+Z,Y)=Cov(X,Y)+Cov(Z,Y)
+ \end{split}$$
