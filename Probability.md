@@ -28,6 +28,9 @@
   - [二维连续型随机变量的概率分布，边缘分布和条件分布](#二维连续型随机变量的概率分布边缘分布和条件分布)
   - [随机变量的相互独立性](#随机变量的相互独立性)
   - [多维随机变量函数的分布](#多维随机变量函数的分布)
+- [第四讲：随机变量的数字特征](#第四讲随机变量的数字特征)
+  - [随机变量的期望与性质](#随机变量的期望与性质)
+  - [随机变量的方差、标准差和切比雪夫不等式](#随机变量的方差标准差和切比雪夫不等式)
 
 
 
@@ -466,5 +469,69 @@ $$F(z)=P\lbrace min(X,Y)\leq Z \rbrace=P\lbrace X\leq Z \cup Y\leq Z\rbrace$$
  \end{split}$$
 
 
+# 第四讲：随机变量的数字特征
 
+## 随机变量的期望与性质
 
+- 离散型
+
+$$\begin{split}
+  &EX=\sum _{i=1}^{\infty}x_ip_i\\
+  &EX=\sum _{i=1}^{\infty}g(x_i)p_i
+\end{split}$$
+
+- 连续型
+
+$$\begin{split}
+  &EX=\int ^{+\infty}_{-\infty}xf(x)dx\\
+  &EX=\int ^{+\infty}_{-\infty}g(x)f(x)dx
+\end{split}$$
+
+> $f(x)dx$ 其实就是概率
+
+- 性质
+
+  $$\begin{split}
+  &E(\sum _{i=1}^{n}a_iX_i)=\sum _{i=1}^{n}a_iEX_i\\
+  &Ec=c,E(aX+c)=aEX+c,E(X\pm Y)=E(X)\pm E(Y)\\
+  \end{split}$$
+
+ 若 $X,Y$ 互相独立
+
+ $$E(XY)=EXEY$$
+
+## 随机变量的方差、标准差和切比雪夫不等式
+
+- 方差
+
+$$DX=E[(X-EX)^2]=E(X^2)-EX^2$$
+
+- 标准差
+
+$$\sigma(X)=\sqrt{DX}$$
+
+- 标准化随机变量
+
+$$X^*=\frac{X-EX}{\sqrt{DX}}$$
+
+>此时的 $EX^*=0,DX^*=1$
+
+- 性质
+  
+ (1) $DX\geq 0,E(X^2)=DX+EX^2\geq EX^2$
+
+ (2)$Dc=0$
+
+ (3)$D(aX+b)=a^2DX$
+
+ (4)$D(X\pm Y)=DX+DY\pm 2Cov(X,Y)$
+
+ (5)若 $X,Y$ 相互独立，则
+
+ $$D(aX+bY)=a^2DX+b^2DY$$
+
+- 切比雪夫不等式
+
+ 如果随机变量的期望和方差都存在，则对任意 $\epsilon >0$ ，有
+
+ $$P\lbrace \lvert X-EX\lvert \geq \epsilon\rbrace \leq \frac{DX}{\epsilon ^2}$$
