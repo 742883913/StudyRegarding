@@ -588,3 +588,14 @@ $$X^*=\frac{X-EX}{\sqrt{DX}}$$
   &Cov(X,c)=0 , Cov(aX+b,Y)=aCov(X,Y)\\
   &Cov(X+Z,Y)=Cov(X,Y)+Cov(Z,Y)
  \end{split}$$
+
+- 重要结论
+
+（一）如果 $X,Y$  独立，则肯定不相关，反之不然
+
+$$X,Y 独立\rightarrow \rho _{X,Y}=0\leftrightarrow Cov(X,Y)=0\leftrightarrow D(X\pm Y)=DX+DY$$
+
+（二）如果 $(X,Y)$ 服从二维正态分布，则它们两独立 $\leftrightarrow$ $X,Y$ 不相关
+
+
+
