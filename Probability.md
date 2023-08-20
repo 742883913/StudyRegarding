@@ -32,6 +32,7 @@
   - [随机变量的期望与性质](#随机变量的期望与性质)
   - [随机变量的方差、标准差和切比雪夫不等式](#随机变量的方差标准差和切比雪夫不等式)
   - [二维随机变量的数字特征](#二维随机变量的数字特征)
+- [第五讲：大数定律与中心极限定理](#第五讲大数定律与中心极限定理)
 
 
 
@@ -269,7 +270,7 @@ $$P\lbrace a<X< b\rbrace=P\lbrace a<X\leq b\rbrace=P\lbrace a\leq X< b\rbrace=P\
 
   $$\phi(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2},x\in (-\infty,+\infty)$$
 
-  $$\Phi (x)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^xe^{=\frac{t^2}{2}}dt$$
+  $$\Phi (x)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^xe^{-\frac{t^2}{2}}dt$$
 
  $$\Phi (0)=\frac{1}{2}, \Phi (-x)=1-\Phi (x)$$
 
@@ -596,6 +597,43 @@ $$X^*=\frac{X-EX}{\sqrt{DX}}$$
 $$X,Y 独立\rightarrow \rho _{X,Y}=0\leftrightarrow Cov(X,Y)=0\leftrightarrow D(X\pm Y)=DX+DY$$
 
 （二）如果 $(X,Y)$ 服从二维正态分布，则它们两独立 $\leftrightarrow$ $X,Y$ 不相关
+
+# 第五讲：大数定律与中心极限定理
+
+（一）依概率收敛：
+
+设随机变量 $X$ 与随机变量序列  $[X_n]$ ,对任意 $\epsilon >0$
+
+$$\lim _{n\to \infty} P\lbrace \lvert X_n-X\rvert < \epsilon \rbrace=1$$
+
+则称随机变量序列 $[X_n]$  依概率收敛于随机变量 $X$ ,记作：
+
+$$X_n \stackrel{P}{\rightarrow} X$$
+
+（二）大数定律
+
+- 切比雪夫大数定律
+
+ 假设 $\lbrace X_n \rbrace$ 是**相互独立**的随机变量序列，如果**方差存在且一致有上界**，则 $\lbrace X_n \rbrace$ 服从大数定律：
+
+ $$\frac{1}{n}\sum _{i=1}^{n} X_i \stackrel{P}{\rightarrow}\frac{1}{n}\sum_{i=1}^{n} EX_i$$
+
+- 辛钦大数定律
+
+ 假设 $\lbrace X_n \rbrace$ 是 **独立** 和 **同分布** 的随机变量序列，如果 $EX_i=\mu$ 存在，则 $\frac{1}{n}\sum _{i=1}^n X_i \stackrel{P}{\rightarrow} \mu$
+
+ $$\lim _{n\to \infty} P\lbrace \lvert \frac{1}{n}\sum _{i=1}^n X_i-\mu \rvert < \epsilon \rbrace=1$$
+
+（三）中心极限定理
+
+ 假设 $\lbrace X_n \rbrace$ 是独立同分布的随机变量序列，如果
+
+ $$EX_i=\mu, DX_i=\sigma ^2 >0$$
+
+ 存在，则对任意实数 $x$ ，有
+
+ $$\lim _{n\to \infty}P\lbrace \frac{\sum_{i=1}^nX_i-n\mu}{\sqrt{n}\sigma}\leq x \rbrace=\frac{1}{\sqrt{2\pi}}\int _{-\infty}^xe^{-\frac{t^2}{2}}dt=\Phi (x)$$
+
 
 
 
